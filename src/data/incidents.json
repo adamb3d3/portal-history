@@ -441,7 +441,10 @@
               "url": "https://en.wikipedia.org/wiki/Quasi-War"
             }
           ],
-          "aiPrompt": "Period oil-portrait of Alexander Hamilton in late-1790s American military uniform as Major General, sepia and candle-lit, painterly, no modern elements."
+          "aiPrompt": "Period oil-portrait of Alexander Hamilton in late-1790s American military uniform as Major General, sepia and candle-lit, painterly, no modern elements.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/John_Trumbull_-_Alexander_Hamilton_-_Google_Art_Project.jpg",
+          "imageAlt": "John Trumbull, posthumous portrait of Alexander Hamilton, 1806",
+          "imagePosition": "50% 30%"
         },
         {
           "id": "jefferson-1801",
@@ -463,7 +466,10 @@
               "url": "https://en.wikipedia.org/wiki/1800_United_States_presidential_election"
             }
           ],
-          "aiPrompt": "Painting of Thomas Jefferson at his March 1801 inauguration on the steps of the unfinished US Capitol, ceremonial robe, sepia and slate palette, no modern elements."
+          "aiPrompt": "Painting of Thomas Jefferson at his March 1801 inauguration on the steps of the unfinished US Capitol, ceremonial robe, sepia and slate palette, no modern elements.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg",
+          "imageAlt": "Rembrandt Peale, official presidential portrait of Thomas Jefferson, 1800",
+          "imagePosition": "50% 25%"
         },
         {
           "id": "war-1812",
@@ -485,7 +491,10 @@
               "url": "https://en.wikipedia.org/wiki/War_of_1812"
             }
           ],
-          "aiPrompt": "19th-century engraving style: the British burning of Washington in August 1814 — flames silhouetting the Capitol against a night sky, smoke, distant figures fleeing, dark sepia."
+          "aiPrompt": "19th-century engraving style: the British burning of Washington in August 1814 — flames silhouetting the Capitol against a night sky, smoke, distant figures fleeing, dark sepia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Burning_of_Washington_1814.jpg",
+          "imageAlt": "Period illustration: the British burning of Washington, August 1814",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "nullification-1832",
@@ -507,7 +516,10 @@
               "url": "https://en.wikipedia.org/wiki/Nullification_crisis"
             }
           ],
-          "aiPrompt": "Period portrait of Andrew Jackson seated at a desk holding the Force Bill proclamation, stern expression, oil painting, mid-19th-century, sepia."
+          "aiPrompt": "Period portrait of Andrew Jackson seated at a desk holding the Force Bill proclamation, stern expression, oil painting, mid-19th-century, sepia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Andrew_jackson_head_%28cropped%29.jpg",
+          "imageAlt": "Formal portrait of Andrew Jackson, c. 1835",
+          "imagePosition": "50% 30%"
         },
         {
           "id": "scott-polk-1846",
@@ -529,7 +541,10 @@
               "url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo"
             }
           ],
-          "aiPrompt": "Period oil portrait of General Winfield Scott in 1840s American dress uniform, half-length, framed by maps of Mexico in the background, sepia."
+          "aiPrompt": "Period oil portrait of General Winfield Scott in 1840s American dress uniform, half-length, framed by maps of Mexico in the background, sepia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Winfield_Scott_by_Fredricks%2C_1862_crop.jpg",
+          "imageAlt": "General Winfield Scott in dress uniform, photograph by Fredricks, c. 1862",
+          "imagePosition": "50% 25%"
         },
         {
           "id": "lincoln-command-1861",
@@ -551,7 +566,10 @@
               "url": "https://www.loc.gov/collections/abraham-lincoln-papers/"
             }
           ],
-          "aiPrompt": "Period black-and-white photograph: Abraham Lincoln in 1861 standing at his White House desk, papers strewn around, dim window light, formal melancholy."
+          "aiPrompt": "Period black-and-white photograph: Abraham Lincoln in 1861 standing at his White House desk, papers strewn around, dim window light, formal melancholy.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
+          "imageAlt": "Iconic 1863 photographic portrait of Abraham Lincoln",
+          "imagePosition": "50% 30%"
         },
         {
           "id": "lincoln-mcclellan-1862",
@@ -573,7 +591,10 @@
               "url": "https://www.battlefields.org/learn/biographies/george-b-mcclellan"
             }
           ],
-          "aiPrompt": "Period black-and-white photograph of Lincoln meeting McClellan in McClellan's tent at Antietam, October 1862. Both standing, Lincoln in tall hat, autumn light through tent canvas."
+          "aiPrompt": "Period black-and-white photograph of Lincoln meeting McClellan in McClellan's tent at Antietam, October 1862. Both standing, Lincoln in tall hat, autumn light through tent canvas.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lincoln_and_McClellan_1862-10-03.jpg",
+          "imageAlt": "Lincoln and McClellan in McClellan's tent at Antietam, October 1862",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "appomattox-1865",
@@ -595,7 +616,10 @@
               "url": "https://en.wikipedia.org/wiki/Battle_of_Appomattox_Court_House"
             }
           ],
-          "aiPrompt": "19th-century painting of Robert E. Lee surrendering to Ulysses S. Grant in McLean House parlor, April 9 1865. Period-accurate uniforms, oil painting, warm interior light."
+          "aiPrompt": "19th-century painting of Robert E. Lee surrendering to Ulysses S. Grant in McLean House parlor, April 9 1865. Period-accurate uniforms, oil painting, warm interior light.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/General_Robert_E._Lee_surrenders_at_Appomattox_Court_House_1865.jpg",
+          "imageAlt": "Print depicting Lee's surrender to Grant at Appomattox Court House, April 1865",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "reconstruction-1867",
@@ -639,7 +663,10 @@
               "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
             }
           ],
-          "aiPrompt": "Period photograph of President McKinley at his White House desk signing the war declaration against Spain, April 1898. Sepia tone, formal, advisors in background."
+          "aiPrompt": "Period photograph of President McKinley at his White House desk signing the war declaration against Spain, April 1898. Sepia tone, formal, advisors in background.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Collage_infobox_for_Spanish-American_War.jpg",
+          "imageAlt": "Period collage of imagery from the Spanish-American War, 1898",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "wilson-pershing-1917",
@@ -661,7 +688,10 @@
               "url": "https://en.wikipedia.org/wiki/John_J._Pershing"
             }
           ],
-          "aiPrompt": "Black-and-white period photograph of General John J. Pershing in WWI American Expeditionary Force uniform, formal portrait, 1917, sepia."
+          "aiPrompt": "Black-and-white period photograph of General John J. Pershing in WWI American Expeditionary Force uniform, formal portrait, 1917, sepia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/General_John_Joseph_Pershing_head_on_shoulders.jpg",
+          "imageAlt": "Photographic portrait of General John J. Pershing, c. 1917",
+          "imagePosition": "50% 25%"
         },
         {
           "id": "bonus-army-1932",
@@ -683,7 +713,10 @@
               "url": "https://en.wikipedia.org/wiki/Bonus_Army"
             }
           ],
-          "aiPrompt": "1932 black-and-white photograph: the Bonus Army camp at Anacostia Flats, Washington DC, with smoke rising from burning shanties and silhouetted soldiers in the foreground."
+          "aiPrompt": "1932 black-and-white photograph: the Bonus Army camp at Anacostia Flats, Washington DC, with smoke rising from burning shanties and silhouetted soldiers in the foreground.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Evictbonusarmy.jpg",
+          "imageAlt": "Bonus Army shacks burning at Anacostia Flats, July 1932",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "nat-sec-act-1947",
@@ -705,7 +738,10 @@
               "url": "https://en.wikipedia.org/wiki/National_Security_Act_of_1947"
             }
           ],
-          "aiPrompt": "1947 black-and-white photograph of President Truman at a desk signing the National Security Act, advisors and military officers standing behind him. Formal Oval Office setting."
+          "aiPrompt": "1947 black-and-white photograph of President Truman at a desk signing the National Security Act, advisors and military officers standing behind him. Formal Oval Office setting.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Photograph_of_President_Truman_at_his_desk_in_the_Oval_Office%2C_signing_the_National_Security_Act_Amendments_of_1949..._-_NARA_-_200168.jpg",
+          "imageAlt": "President Truman signing the National Security Act Amendments at his Oval Office desk, 1949",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "truman-macarthur-1951",
@@ -751,7 +787,10 @@
               "url": "https://www.nps.gov/chsc/index.htm"
             }
           ],
-          "aiPrompt": "1957 black-and-white photograph: soldiers from the 101st Airborne Division in helmets and rifles escorting the Little Rock Nine into Central High School. Stark, dignified."
+          "aiPrompt": "1957 black-and-white photograph: soldiers from the 101st Airborne Division in helmets and rifles escorting the Little Rock Nine into Central High School. Stark, dignified.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Operation_Arkansas%2C_Little_Rock_Nine.jpg",
+          "imageAlt": "101st Airborne troops escorting the Little Rock Nine into Central High School, September 1957",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "missile-crisis-1962",
@@ -773,7 +812,10 @@
               "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
             }
           ],
-          "aiPrompt": "1962 black-and-white photograph: President Kennedy and ExComm advisors around a long cabinet table during the Cuban Missile Crisis. Formal, tense, papers spread out."
+          "aiPrompt": "1962 black-and-white photograph: President Kennedy and ExComm advisors around a long cabinet table during the Cuban Missile Crisis. Formal, tense, papers spread out.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/McNamara_and_Kennedy.jpg",
+          "imageAlt": "President Kennedy and Secretary McNamara in an EXCOMM meeting during the Cuban Missile Crisis, October 1962",
+          "imagePosition": "50% 35%"
         },
         {
           "id": "war-powers-1973",
@@ -817,7 +859,10 @@
               "url": "https://en.wikipedia.org/wiki/James_R._Schlesinger"
             }
           ],
-          "aiPrompt": "August 9, 1974 photograph of Richard Nixon at the helicopter steps on the South Lawn, arms raised in farewell wave, after announcing his resignation. Documentary, color or sepia."
+          "aiPrompt": "August 9, 1974 photograph of Richard Nixon at the helicopter steps on the South Lawn, arms raised in farewell wave, after announcing his resignation. Documentary, color or sepia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/President_Richard_Nixon_Departing_the_White_House_on_the_Presidential_Helicopter_for_the_Last_Time_as_President.jpg",
+          "imageAlt": "Richard Nixon departing the White House on the presidential helicopter for the last time, August 9, 1974",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "goldwater-nichols-1986",
@@ -839,7 +884,10 @@
               "url": "https://www.jcs.mil/About/"
             }
           ],
-          "aiPrompt": "1986 photograph of President Reagan at a desk signing the Goldwater-Nichols Defense Reorganization Act, surrounded by uniformed Joint Chiefs and Secretary of Defense. Formal Oval Office."
+          "aiPrompt": "1986 photograph of President Reagan at a desk signing the Goldwater-Nichols Defense Reorganization Act, surrounded by uniformed Joint Chiefs and Secretary of Defense. Formal Oval Office.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/GoldwaterNichols.jpg",
+          "imageAlt": "Senators Barry Goldwater and Bill Nichols, co-sponsors of the Goldwater-Nichols Act of 1986",
+          "imagePosition": "50% 35%"
         },
         {
           "id": "gulf-war-1991",
@@ -861,7 +909,10 @@
               "url": "https://www.pbs.org/wgbh/pages/frontline/gulf/"
             }
           ],
-          "aiPrompt": "1991 photograph of General Norman Schwarzkopf in desert fatigues at a press conference podium, large map of Iraq behind him, pointer in hand. Documentary, color."
+          "aiPrompt": "1991 photograph of General Norman Schwarzkopf in desert fatigues at a press conference podium, large map of Iraq behind him, pointer in hand. Documentary, color.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/NormanSchwarzkopf.jpg",
+          "imageAlt": "Official portrait of General Norman Schwarzkopf in uniform, 1988",
+          "imagePosition": "50% 25%"
         },
         {
           "id": "dadt-1993",
@@ -883,7 +934,10 @@
               "url": "https://archive.defense.gov/home/features/2010/0610_dadt/"
             }
           ],
-          "aiPrompt": "1993 photograph of President Clinton at his desk signing the DADT compromise legislation, military service chiefs standing behind in dress uniform. Documentary, color."
+          "aiPrompt": "1993 photograph of President Clinton at his desk signing the DADT compromise legislation, military service chiefs standing behind in dress uniform. Documentary, color.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Screenshot_of_Video_Recording_of_President_William_Jefferson_Clinton.png",
+          "imageAlt": "President Clinton announcing the Don't Ask Don't Tell policy, 1993",
+          "imagePosition": "50% 30%"
         },
         {
           "id": "mcchrystal-2010",
@@ -905,7 +959,10 @@
               "url": "https://www.theatlantic.com/"
             }
           ],
-          "aiPrompt": "2010 photograph of General Stanley McChrystal in U.S. Army camouflage fatigues in Afghanistan, standing in front of a map, looking pensive. Documentary, color."
+          "aiPrompt": "2010 photograph of General Stanley McChrystal in U.S. Army camouflage fatigues in Afghanistan, standing in front of a map, looking pensive. Documentary, color.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Gen._Stanley_McChrystal_USFOR-Y.jpg",
+          "imageAlt": "Official portrait of General Stanley A. McChrystal, c. 2009",
+          "imagePosition": "50% 25%"
         },
         {
           "id": "lafayette-square-2020",
@@ -927,7 +984,10 @@
               "url": "https://en.wikipedia.org/wiki/Mark_Milley"
             }
           ],
-          "aiPrompt": "June 1, 2020 photograph: Chairman Mark Milley in Army Combat Uniform walking past Lafayette Square with President Trump and other officials toward St. John's Episcopal Church. Documentary, color, dusk."
+          "aiPrompt": "June 1, 2020 photograph: Chairman Mark Milley in Army Combat Uniform walking past Lafayette Square with President Trump and other officials toward St. John's Episcopal Church. Documentary, color, dusk.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/President_Trump_Visits_St._John%27s_Episcopal_Church_%2849964152976%29.jpg",
+          "imageAlt": "President Trump and officials walking from the White House through Lafayette Square to St. John's Episcopal Church, June 1, 2020",
+          "imagePosition": "50% 35%"
         },
         {
           "id": "jan-6-2021",
@@ -949,7 +1009,10 @@
               "url": "https://www.govinfo.gov/collection/january-6th-committee-final-report"
             }
           ],
-          "aiPrompt": "Wide photograph of the U.S. Capitol Rotunda at night on January 6, 2021. National Guard troops sleeping in formation on the marble floor, statues looming above, dim light."
+          "aiPrompt": "Wide photograph of the U.S. Capitol Rotunda at night on January 6, 2021. National Guard troops sleeping in formation on the marble floor, statues looming above, dim light.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg",
+          "imageAlt": "Wide shot of the U.S. Capitol during the January 6, 2021 attack",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "present-day",
@@ -971,7 +1034,10 @@
               "url": "https://warontherocks.com/category/civil-military-relations/"
             }
           ],
-          "aiPrompt": "Stylized minimalist composition: the U.S. Constitution document fading into a contemporary military uniform sleeve, sepia and slate tones. Suggestive of continuity, not literal — for a closing card."
+          "aiPrompt": "Stylized minimalist composition: the U.S. Constitution document fading into a contemporary military uniform sleeve, sepia and slate tones. Suggestive of continuity, not literal — for a closing card.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Constitution_of_the_United_States%2C_page_1.jpg",
+          "imageAlt": "First page of the United States Constitution, engrossed by Jacob Shallus, 1787",
+          "imagePosition": "50% 30%"
         }
       ]
     },
