@@ -641,7 +641,10 @@
               "url": "https://en.wikipedia.org/wiki/Reconstruction_Acts"
             }
           ],
-          "aiPrompt": "Period engraving (Harper's Weekly style): Union soldiers overseeing the voter registration of freed Black men in the post-Civil-War South, 1867. Sepia, formal, dignified."
+          "aiPrompt": "Period engraving (Harper's Weekly style): Union soldiers overseeing the voter registration of freed Black men in the post-Civil-War South, 1867. Sepia, formal, dignified.",
+          "imageUrl": "/images/timeline/reconstruction-1867.png",
+          "imageAlt": "Newly emancipated Black men registering to vote under federal Reconstruction, 1867 (Harper's Weekly–style engraving)",
+          "imagePosition": "50% 50%"
         },
         {
           "id": "spanish-american-1898",
@@ -837,7 +840,10 @@
               "url": "https://en.wikipedia.org/wiki/War_Powers_Resolution"
             }
           ],
-          "aiPrompt": "1973 photograph of the U.S. Capitol building at dusk with the dome lit, newspapers visible in foreground showing 'War Powers Act' headlines. Documentary feel."
+          "aiPrompt": "1973 photograph of the U.S. Capitol building at dusk with the dome lit, newspapers visible in foreground showing 'War Powers Act' headlines. Documentary feel.",
+          "imageUrl": "/images/timeline/war-powers-1973.png",
+          "imageAlt": "Override vote on the War Powers Resolution, U.S. House chamber, November 7, 1973",
+          "imagePosition": "50% 45%"
         },
         {
           "id": "nixon-resigns-1974",
