@@ -125,9 +125,9 @@ export default function Incident() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
               className="absolute bottom-7 left-1/2 -translate-x-1/2 z-40 inline-flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.4em] text-stone-200 hover:text-ember transition-colors group"
-              aria-label="Continue to timeline"
+              aria-label="Continue to the timeline"
             >
-              <span>The norm, tested</span>
+              <span>Continue</span>
               <motion.span
                 animate={{ y: [0, 5, 0] }}
                 transition={{

@@ -5,59 +5,60 @@
     "title": "Cincinnatus Returns to His Plow",
     "date": "0458-01-01",
     "dateLabel": "c. 458 BCE",
-    "hook": "Rome made him dictator with absolute power. Sixteen days later he gave it back and went home to farm. The Founders studied this story and named a society for it.",
+    "hook": "Rome gave him absolute power. Sixteen days later he gave it back and finished plowing the field he had left. Twenty-three centuries on, Continental Army officers named themselves for him.",
     "tags": ["roman-republic", "civil-military", "ancient", "precedent"],
     "location": {
       "lat": 41.9028,
       "lng": 12.4964,
       "label": "Rome, the Roman Republic"
     },
+    "posterImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Cincinato_abandona_el_arado_para_dictar_leyes_a_Roma%2C_c.1806_de_Juan_Antonio_Ribera.jpg",
     "scenes": [
       {
         "kind": "caption",
-        "text": "Around 458 BCE, the Roman Republic faced military disaster: a Roman consul and his army surrounded by the Aequi in the hills east of the city.",
+        "text": "458 BCE. The [Aequi](https://en.wikipedia.org/wiki/Aequi), a hill people east of Rome, have surrounded a Roman army on [Mount Algidus](https://en.wikipedia.org/wiki/Mons_Algidus). The consul is pinned with his men, unable to break out. In panic, the Senate votes to appoint a [dictator](https://en.wikipedia.org/wiki/Roman_dictator) — a temporary office of absolute legal authority, granted for up to six months in moments of existential threat. By Roman tradition the office is rare, dangerous, and to be feared.",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Domenico_Beccafumi_010.jpg",
         "imageAlt": "Domenico Beccafumi fresco of Cincinnatus, c. 1530, Public Palace, Siena",
         "imagePosition": "50% 35%",
-        "year": "c. 458 BCE",
-        "durationMs": 9000
+        "year": "458 BCE",
+        "durationMs": 11000
       },
       {
         "kind": "caption",
-        "text": "The Senate appointed [Lucius Quinctius Cincinnatus](https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus) as dictator — Rome's legal office of emergency, conferring absolute authority for up to six months. Senators rode out to his small farm to inform him. He was working the plow.",
+        "text": "They name [Lucius Quinctius Cincinnatus](https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus). Sixty-something, a former consul, politically ruined a year earlier when his son was exiled, now living on four [iugera](https://en.wikipedia.org/wiki/Jugerum) — about two and a half acres — across the Tiber from the city. The senatorial delegation finds him in the field, plowing without a tunic, the soil up to his elbows. He calls to his wife Racilia to fetch his toga from the farmhouse, wipes the sweat from his face, and listens.",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Cincinato_abandona_el_arado_para_dictar_leyes_a_Roma%2C_c.1806_de_Juan_Antonio_Ribera.jpg",
         "imageAlt": "Juan Antonio Ribera, Cincinnatus Abandons the Plow to Dictate Laws to Rome, c. 1806",
         "imagePosition": "50% 45%",
-        "year": "c. 458 BCE",
-        "durationMs": 10000
+        "year": "458 BCE",
+        "durationMs": 12000
       },
       {
         "kind": "reenactment-step",
-        "text": "He put on the senatorial toga, raised an army, marched on the trapped legion, and defeated the Aequi within sixteen days. By Roman law, he could have ruled the Republic for months on the authority he held.",
-        "year": "c. 458 BCE",
-        "durationMs": 9000
+        "text": "He raises an army by morning. He marches east through the night. He surrounds the Aequi who had surrounded the Romans, and forces their surrender — by [Livy's](https://en.wikipedia.org/wiki/Livy) account, within fifteen days from the moment the senators dismounted at his farm. Rome offers him a triumph through the city. He accepts it.",
+        "year": "458 BCE",
+        "durationMs": 11000
       },
       {
         "kind": "reenactment-step",
-        "text": "He resigned the dictatorship, returned the office to the Senate, and walked back to his farm.",
-        "year": "c. 458 BCE",
-        "durationMs": 8000
+        "text": "By Roman law, the dictatorship is his for nearly six months more. He could legislate without the Senate. He could appoint magistrates of his own choosing. He could try citizens in court without right of appeal. On the sixteenth day, he resigns. He returns the rods of authority to the Senate. He goes home — and finishes plowing the field he had left.",
+        "year": "458 BCE",
+        "durationMs": 12000
       },
       {
         "kind": "quote",
         "text": "Omnia reliquit servare rempublicam.",
-        "attribution": "Motto of the [Society of the Cincinnati](https://en.wikipedia.org/wiki/Society_of_the_Cincinnati), founded by Continental Army officers in 1783 — \"He gave up everything to save the Republic.\"",
+        "attribution": "Motto of the [Society of the Cincinnati](https://en.wikipedia.org/wiki/Society_of_the_Cincinnati), founded by Continental Army officers as they mustered out in 1783 — \"He gave up everything to save the Republic.\"",
         "year": "1783",
         "durationMs": 10000
       },
       {
         "kind": "caption",
-        "text": "The story became Rome's founding myth of civic virtue. Twenty-three centuries later, Continental Army officers compared Washington to Cincinnatus by name. The city of Cincinnati, Ohio, was named for the Society they founded.",
+        "text": "The story became Rome's founding myth of civic virtue — recounted by Livy, codified in Roman education, held up as a standard for the next two thousand years. In May 1783, Continental Army officers mustering out of service named themselves the Society of the Cincinnati after him. Their first president was [George Washington](https://en.wikipedia.org/wiki/George_Washington). When he walked into the New Building at Newburgh that March — and again when he handed back his commission at Annapolis nine months later — he was conscious of being measured against the man at the plow.",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cincinnatus_Cincinnatorum.png",
-        "imageAlt": "Statue of Cincinnatus at his plow, Cincinnati, Ohio",
+        "imageAlt": "Statue of Cincinnatus laying down the fasces and taking up the plow, Cincinnati, Ohio",
         "imagePosition": "50% 30%",
-        "year": "c. 1880",
-        "durationMs": 11000
+        "year": "1783 → today",
+        "durationMs": 13000
       }
     ],
     "payoff": {
@@ -102,6 +103,7 @@
       "lng": -74.05955,
       "label": "New Windsor Cantonment, NY"
     },
+    "posterImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
     "scenes": [
       {
         "kind": "caption",
