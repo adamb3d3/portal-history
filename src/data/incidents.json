@@ -1,0 +1,667 @@
+[
+  {
+    "schemaVersion": "1.0",
+    "id": "cincinnatus-458-bce",
+    "title": "Cincinnatus Returns to His Plow",
+    "date": "0458-01-01",
+    "dateLabel": "c. 458 BCE",
+    "hook": "Rome made him dictator with absolute power. Sixteen days later he gave it back and went home to farm. The Founders studied this story and named a society for it.",
+    "tags": ["roman-republic", "civil-military", "ancient", "precedent"],
+    "location": {
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "label": "Rome, the Roman Republic"
+    },
+    "scenes": [
+      {
+        "kind": "caption",
+        "text": "Around 458 BCE, the Roman Republic faced military disaster: a Roman consul and his army surrounded by the Aequi in the hills east of the city.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Domenico_Beccafumi_010.jpg",
+        "imageAlt": "Domenico Beccafumi fresco of Cincinnatus, c. 1530, Public Palace, Siena",
+        "imagePosition": "50% 35%",
+        "year": "c. 458 BCE",
+        "durationMs": 9000
+      },
+      {
+        "kind": "caption",
+        "text": "The Senate appointed [Lucius Quinctius Cincinnatus](https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus) as dictator — Rome's legal office of emergency, conferring absolute authority for up to six months. Senators rode out to his small farm to inform him. He was working the plow.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Cincinato_abandona_el_arado_para_dictar_leyes_a_Roma%2C_c.1806_de_Juan_Antonio_Ribera.jpg",
+        "imageAlt": "Juan Antonio Ribera, Cincinnatus Abandons the Plow to Dictate Laws to Rome, c. 1806",
+        "imagePosition": "50% 45%",
+        "year": "c. 458 BCE",
+        "durationMs": 10000
+      },
+      {
+        "kind": "reenactment-step",
+        "text": "He put on the senatorial toga, raised an army, marched on the trapped legion, and defeated the Aequi within sixteen days. By Roman law, he could have ruled the Republic for months on the authority he held.",
+        "year": "c. 458 BCE",
+        "durationMs": 9000
+      },
+      {
+        "kind": "reenactment-step",
+        "text": "He resigned the dictatorship, returned the office to the Senate, and walked back to his farm.",
+        "year": "c. 458 BCE",
+        "durationMs": 8000
+      },
+      {
+        "kind": "quote",
+        "text": "Omnia reliquit servare rempublicam.",
+        "attribution": "Motto of the [Society of the Cincinnati](https://en.wikipedia.org/wiki/Society_of_the_Cincinnati), founded by Continental Army officers in 1783 — \"He gave up everything to save the Republic.\"",
+        "year": "1783",
+        "durationMs": 10000
+      },
+      {
+        "kind": "caption",
+        "text": "The story became Rome's founding myth of civic virtue. Twenty-three centuries later, Continental Army officers compared Washington to Cincinnatus by name. The city of Cincinnati, Ohio, was named for the Society they founded.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Cincinnatus_Cincinnatorum.png",
+        "imageAlt": "Statue of Cincinnatus at his plow, Cincinnati, Ohio",
+        "imagePosition": "50% 30%",
+        "year": "c. 1880",
+        "durationMs": 11000
+      }
+    ],
+    "payoff": {
+      "quote": "Omnia reliquit servare rempublicam.",
+      "attribution": "Society of the Cincinnati, motto, 1783",
+      "sourceId": "wp-society-cincinnati",
+      "durationMs": 10000
+    },
+    "sources": [
+      {
+        "id": "wp-cincinnatus",
+        "label": "Wikipedia — Lucius Quinctius Cincinnatus",
+        "url": "https://en.wikipedia.org/wiki/Lucius_Quinctius_Cincinnatus"
+      },
+      {
+        "id": "wp-roman-dictator",
+        "label": "Wikipedia — Roman dictator (the office)",
+        "url": "https://en.wikipedia.org/wiki/Roman_dictator"
+      },
+      {
+        "id": "wp-society-cincinnati",
+        "label": "Wikipedia — Society of the Cincinnati",
+        "url": "https://en.wikipedia.org/wiki/Society_of_the_Cincinnati"
+      },
+      {
+        "id": "wp-livy-iii",
+        "label": "Livy — Ab Urbe Condita, Book III (Cincinnatus narrative)",
+        "url": "https://en.wikipedia.org/wiki/Ab_Urbe_Condita_Libri"
+      }
+    ]
+  },
+  {
+    "schemaVersion": "1.0",
+    "id": "newburgh-conspiracy-1783",
+    "title": "The Newburgh Conspiracy",
+    "date": "1783-03-15",
+    "dateLabel": "March 15, 1783",
+    "hook": "Washington walked into a meeting he had not promised to attend, and reached for his spectacles.",
+    "tags": ["founding", "civil-military", "1700s"],
+    "location": {
+      "lat": 41.47248,
+      "lng": -74.05955,
+      "label": "New Windsor Cantonment, NY"
+    },
+    "scenes": [
+      {
+        "kind": "caption",
+        "text": "Winter 1783. The Continental Army is encamped above the Hudson — Washington's headquarters at Newburgh, his troops three miles south at the New Windsor Cantonment. The war is won. The treaty is being signed in Paris.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hudson_River_Valley%2C_N.Y%2C_by_Singley%2C_B._L._%28Benjamin_Lloyd%29.png",
+        "imageAlt": "View of the Hudson River Valley in New York",
+        "imagePosition": "50% 55%",
+        "year": "Winter 1783",
+        "sourceIds": ["mv-new-windsor-cantonment", "wm-hudson-valley", "mv-newburgh-address"],
+        "durationMs": 9000
+      },
+      {
+        "kind": "caption",
+        "text": "Some of the men have not seen their homes in eight years. The army has not been paid in months. Their officers expect half-pay pensions for life — and Congress is preparing to refuse them.",
+        "year": "Winter 1783",
+        "sourceIds": ["mv-newburgh-address", "founders-newburgh-address"],
+        "durationMs": 8000
+      },
+      {
+        "kind": "caption",
+        "text": "On March 10, an anonymous letter circulates the camp. Its author, kept secret for decades, was [Major John Armstrong Jr.](https://en.wikipedia.org/wiki/John_Armstrong_Jr.), aide-de-camp to [General Horatio Gates](https://en.wikipedia.org/wiki/Horatio_Gates). It calls the officers to a meeting and proposes that the army refuse to disband until paid — a threat to march on Congress.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/John_Armstrong_Jr_Rembrandt_Peale.jpg",
+        "imageAlt": "Portrait of Major John Armstrong Jr. by Rembrandt Peale",
+        "imagePosition": "50% 30%",
+        "year": "March 10, 1783",
+        "sourceIds": ["mv-newburgh-address", "wm-armstrong-portrait"],
+        "durationMs": 9000
+      },
+      {
+        "kind": "caption",
+        "text": "Washington forbids the unauthorized meeting and calls his own — for noon on March 15, in the New Building at the cantonment. He does not announce that he will attend.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/New_Windsor_Cantonment.jpg",
+        "imageAlt": "The reconstructed Temple of Virtue at New Windsor Cantonment State Historic Site",
+        "imagePosition": "50% 50%",
+        "year": "March 11, 1783",
+        "sourceIds": ["mv-newburgh-address", "founders-newburgh-address", "wm-cantonment-temple"],
+        "durationMs": 9000
+      },
+      {
+        "kind": "caption",
+        "text": "March 15, noon. The officers gather, expecting General Horatio Gates to preside. Washington walks in instead. The room falls silent.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/RobertAndGouverneurMorris.jpg",
+        "imageAlt": "Charles Willson Peale portrait of Robert and Gouverneur Morris, 1783",
+        "imagePosition": "50% 35%",
+        "year": "March 15, 1783",
+        "sourceIds": ["mv-newburgh-address", "wm-morris-portrait"],
+        "durationMs": 8000
+      },
+      {
+        "kind": "caption",
+        "text": "He reads a prepared address — multiple sheets, his own hand. The argument is precise. The room is unmoved.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Newburgh_Address.jpg",
+        "imageAlt": "A page from the Newburgh Address in Washington's hand",
+        "imagePosition": "50% 50%",
+        "year": "March 15, 1783",
+        "sourceIds": ["founders-newburgh-address", "mv-newburgh-address"],
+        "durationMs": 9000
+      },
+      {
+        "kind": "quote",
+        "text": "Let me conjure you, in the name of our common Country... to express your utmost horror and detestation of the Man who wishes, under any specious pretences, to overturn the liberties of our Country.",
+        "attribution": "George Washington — Address to the Officers of the Army, March 15, 1783",
+        "year": "March 15, 1783",
+        "sourceIds": ["founders-newburgh-address"],
+        "durationMs": 10000
+      },
+      {
+        "kind": "reenactment-step",
+        "text": "He produces a letter from [Joseph Jones of Virginia](https://en.wikipedia.org/wiki/Joseph_Jones_(Virginia_politician)), fumbles with the page, then reaches for spectacles his officers have never seen him wear. [Major Samuel Shaw](https://en.wikipedia.org/wiki/Samuel_Shaw_(diplomat)), who was present, would later write that many were 'convulsed with tears.'",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "imageAlt": "Gilbert Stuart's Williamstown portrait of George Washington",
+        "imagePosition": "50% 25%",
+        "year": "March 15, 1783",
+        "sourceIds": ["mv-newburgh-address", "mv-spectacles-quote", "wm-stuart-washington"],
+        "durationMs": 10000
+      },
+      {
+        "kind": "quote",
+        "text": "Gentlemen, you will permit me to put on my spectacles, for I have not only grown gray, but almost blind, in the service of my country.",
+        "attribution": "George Washington — March 15, 1783, New Windsor Cantonment",
+        "year": "March 15, 1783",
+        "sourceIds": ["mv-spectacles-quote"],
+        "durationMs": 11000
+      },
+      {
+        "kind": "caption",
+        "text": "What followed.",
+        "durationMs": 6000
+      },
+      {
+        "kind": "caption",
+        "text": "Nine months later. Washington stands before the Continental Congress at Annapolis and hands back his commission. The army he could have led against the Republic, he has marched home.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/General_George_Washington_Resigning_his_Commission.jpg",
+        "imageAlt": "John Trumbull, General George Washington Resigning His Commission, 1824",
+        "imagePosition": "50% 45%",
+        "year": "December 23, 1783",
+        "sourceIds": ["mv-resignation", "wm-trumbull-resignation"],
+        "durationMs": 10000
+      },
+      {
+        "kind": "caption",
+        "text": "Told that Washington intended to resign and return to his farm, King George III is reported to have said —",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg",
+        "imageAlt": "Allan Ramsay, King George III in coronation robes",
+        "imagePosition": "50% 30%",
+        "year": "1783",
+        "sourceIds": ["mv-greatest-man", "wm-king-george-iii"],
+        "durationMs": 7000
+      },
+      {
+        "kind": "quote",
+        "text": "If he does that, he will be the greatest man in the world.",
+        "attribution": "King George III — recorded by the painter Benjamin West",
+        "year": "1783",
+        "sourceIds": ["mv-greatest-man"],
+        "durationMs": 8000
+      },
+      {
+        "kind": "caption",
+        "text": "Four years later, in a room in Philadelphia, the precedent he set was written into law. Article II of the Constitution names the President — not the General — Commander-in-Chief.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg",
+        "imageAlt": "Howard Chandler Christy, Scene at the Signing of the Constitution of the United States, 1940",
+        "imagePosition": "50% 50%",
+        "year": "1787",
+        "sourceIds": ["constitution-article-ii", "wm-christy-constitution"],
+        "durationMs": 10000
+      },
+      {
+        "kind": "caption",
+        "text": "Two terms. Then he went home. The first peaceful transfer of executive power between elected leaders in modern history.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Gilbert_Stuart_-_George_Washington_%28Lansdowne_Portrait%29_-_Google_Art_Project.jpg",
+        "imageAlt": "Gilbert Stuart, Lansdowne portrait of George Washington, 1796",
+        "imagePosition": "50% 30%",
+        "year": "1797",
+        "sourceIds": ["mv-farewell", "wm-lansdowne"],
+        "durationMs": 10000
+      },
+      {
+        "kind": "caption",
+        "text": "What he chose at Newburgh — and again at Annapolis — became a precedent. In the centuries since, it has been tested again, and again, and again.",
+        "year": "And after",
+        "durationMs": 9000
+      }
+    ],
+    "payoff": {
+      "quote": "Gentlemen, you will permit me to put on my spectacles, for I have not only grown gray, but almost blind, in the service of my country.",
+      "attribution": "George Washington — March 15, 1783, New Windsor Cantonment",
+      "sourceId": "mv-spectacles-quote",
+      "durationMs": 9000
+    },
+    "sources": [
+      {
+        "id": "founders-newburgh-address",
+        "label": "Founders Online — From George Washington to Officers of the Army, 15 March 1783 (National Archives)",
+        "url": "https://founders.archives.gov/documents/Washington/99-01-02-10840"
+      },
+      {
+        "id": "mv-newburgh-address",
+        "label": "Mount Vernon Digital Encyclopedia — Newburgh Address",
+        "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-address"
+      },
+      {
+        "id": "mv-new-windsor-cantonment",
+        "label": "Mount Vernon Digital Encyclopedia — New Windsor Cantonment",
+        "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/new-windsor-cantonment"
+      },
+      {
+        "id": "mv-spectacles-quote",
+        "label": "Mount Vernon — Statement before delivering response to the first Newburgh Address",
+        "url": "https://www.mountvernon.org/library/digitalhistory/past-projects/quotes/article/gentlemen-you-will-permit-me-to-put-on-my-spectacles-for-i-have-grown-not-only-gray-but-almost-blind-in-the-service-of-my-country"
+      },
+      {
+        "id": "nys-parks-cantonment",
+        "label": "New York State Parks — New Windsor Cantonment State Historic Site",
+        "url": "https://parks.ny.gov/visit/historic-sites/new-windsor-cantonment-state-historic-site"
+      },
+      {
+        "id": "mv-resignation",
+        "label": "Mount Vernon Digital Encyclopedia — Resignation of George Washington's Commission, December 23, 1783",
+        "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/resignation-of-commission"
+      },
+      {
+        "id": "mv-greatest-man",
+        "label": "Mount Vernon Digital Encyclopedia — King George III on Washington's resignation (recorded by Benjamin West)",
+        "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/king-george-iii"
+      },
+      {
+        "id": "constitution-article-ii",
+        "label": "National Archives — Constitution of the United States: Article II",
+        "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+      },
+      {
+        "id": "mv-farewell",
+        "label": "Mount Vernon Digital Encyclopedia — Washington's Farewell Address",
+        "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/washingtons-farewell-address"
+      },
+      {
+        "id": "truman-macarthur",
+        "label": "Truman Library — Truman Relieves MacArthur of Command (April 1951)",
+        "url": "https://www.trumanlibrary.gov/education/online-collections/korean-war/relief-general-macarthur"
+      },
+      {
+        "id": "wm-hudson-valley",
+        "label": "Wikimedia Commons — Hudson River Valley, N.Y., by B.L. Singley (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Hudson_River_Valley,_N.Y,_by_Singley,_B._L._(Benjamin_Lloyd).png"
+      },
+      {
+        "id": "wm-armstrong-portrait",
+        "label": "Wikimedia Commons — John Armstrong Jr., portrait by Rembrandt Peale (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:John_Armstrong_Jr_Rembrandt_Peale.jpg"
+      },
+      {
+        "id": "wm-cantonment-temple",
+        "label": "Wikimedia Commons — Reconstructed Temple at New Windsor Cantonment State Historic Site",
+        "url": "https://commons.wikimedia.org/wiki/File:New_Windsor_Cantonment.jpg"
+      },
+      {
+        "id": "wm-morris-portrait",
+        "label": "Wikimedia Commons — Robert and Gouverneur Morris, portrait by Charles Willson Peale, 1783 (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:RobertAndGouverneurMorris.jpg"
+      },
+      {
+        "id": "wm-stuart-washington",
+        "label": "Wikimedia Commons — Gilbert Stuart's Williamstown portrait of George Washington (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+      },
+      {
+        "id": "wm-trumbull-resignation",
+        "label": "Wikimedia Commons — John Trumbull, General George Washington Resigning His Commission, 1824 (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:General_George_Washington_Resigning_his_Commission.jpg"
+      },
+      {
+        "id": "wm-king-george-iii",
+        "label": "Wikimedia Commons — Allan Ramsay, King George III in coronation robes (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg"
+      },
+      {
+        "id": "wm-christy-constitution",
+        "label": "Wikimedia Commons — Howard Chandler Christy, Scene at the Signing of the Constitution of the United States, 1940 (public domain via Architect of the Capitol)",
+        "url": "https://commons.wikimedia.org/wiki/File:Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg"
+      },
+      {
+        "id": "wm-lansdowne",
+        "label": "Wikimedia Commons — Gilbert Stuart, George Washington (Lansdowne Portrait), 1796 (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_-_George_Washington_(Lansdowne_Portrait)_-_Google_Art_Project.jpg"
+      },
+      {
+        "id": "wm-truman-macarthur",
+        "label": "Wikimedia Commons — President Truman with General MacArthur at Wake Island, October 1950",
+        "url": "https://commons.wikimedia.org/wiki/File:MacArthur_Truman_Wake_Island.jpg"
+      }
+    ],
+    "timeline": {
+      "title": "The norm, tested",
+      "intro": "Twenty-five moments after Newburgh when Washington's precedent of civilian command was specifically pressed, defended, redefined, or held.",
+      "moments": [
+        {
+          "id": "quasi-war-1798",
+          "year": "1798–1800",
+          "title": "The Quasi-War",
+          "hook": "Adams faces an undeclared naval war with France while keeping [Alexander Hamilton](https://en.wikipedia.org/wiki/Alexander_Hamilton) — the man closest to a Caesar in the early Republic — subordinate to civilian command.",
+          "detail": "France, under the Directory, began seizing American merchant ships in 1797 in retaliation for the Jay Treaty with Britain. President [John Adams](https://en.wikipedia.org/wiki/John_Adams) responded with a naval war that Congress never formally declared — the first peacetime expansion of the U.S. military in the constitutional era.\n\nThe political danger was inside the army, not at sea. Washington was nominally recalled as Lieutenant General, but the working command went to Hamilton — the most ambitious man in American politics, with a developed appetite for armed force as an instrument of policy. Hamilton lobbied aggressively for action against France and Spain, and for a standing army much larger than the war required.\n\nAdams refused. He resisted Hamilton's pressure, sent peace commissioners to France over Federalist objections, and accepted the [Convention of 1800](https://en.wikipedia.org/wiki/Convention_of_1800) ending hostilities. Once the threat receded he disbanded the new army, against the wishes of his own party.\n\nThe precedent held in the very first administration after Washington's: a sitting president declined to be pushed into war by a celebrated officer with a faction behind him. Adams was destroyed politically for it. The Republic's civil-military settlement deepened.",
+          "furtherReading": [
+            { "label": "The Avalon Project — Convention of 1800 (Yale Law)", "url": "https://avalon.law.yale.edu/19th_century/fr1800.asp" },
+            { "label": "Mount Vernon — Quasi-War", "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/quasi-war" },
+            { "label": "Wikipedia — Quasi-War", "url": "https://en.wikipedia.org/wiki/Quasi-War" }
+          ]
+        },
+        {
+          "id": "jefferson-1801",
+          "year": "1801",
+          "title": "Jefferson's transition",
+          "hook": "First peaceful transfer of executive power between rival political parties. The army stayed in barracks.",
+          "detail": "The election of 1800 was vicious. Federalists called [Thomas Jefferson](https://en.wikipedia.org/wiki/Thomas_Jefferson) an atheist Jacobin who would import French revolution onto American soil. Republicans called Adams a monarchist. The election produced a tie in the Electoral College and went to the House of Representatives, where Federalists controlled the lame-duck chamber and considered handing the presidency to Aaron Burr to deny Jefferson.\n\nThey did not. After 36 ballots, the House selected Jefferson on February 17, 1801. Adams left Washington before dawn on inauguration day, signaling private bitterness; Jefferson walked to the unfinished Capitol from his boarding house. The transfer was peaceful and legal.\n\nThe Federalist-leaning officer corps, led by men like Hamilton's allies in New York, did not intervene. There was no whisper of military objection to the change of party. Jefferson would later call the moment ['the revolution of 1800'](https://en.wikipedia.org/wiki/Revolution_of_1800) — meaning that one party could replace another without arms or violence.\n\nThis was Washington's precedent in living form: not just that he had stepped down, but that the system he stepped down into could withstand a contested election with a Federalist incumbent and a Republican challenger. The norm was no longer one man's choice. It was an institution.",
+          "furtherReading": [
+            { "label": "Library of Congress — Election of 1800", "url": "https://www.loc.gov/collections/thomas-jefferson-papers/articles-and-essays/the-revolution-of-1800/" },
+            { "label": "Monticello — The 1800 Election", "url": "https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/election-1800/" },
+            { "label": "Wikipedia — 1800 United States presidential election", "url": "https://en.wikipedia.org/wiki/1800_United_States_presidential_election" }
+          ]
+        },
+        {
+          "id": "war-1812",
+          "year": "1812–1815",
+          "title": "Madison's wartime authority",
+          "hook": "[Madison](https://en.wikipedia.org/wiki/James_Madison) commands a war from the White House — even as British troops burn it. Civilian command holds.",
+          "detail": "Congress declared war on Britain in June 1812 — the first declared war under the new Constitution. The conflict went badly for the United States in its early phase: invasions of Canada failed, the Navy's small frigate force engaged at impossible odds, and dissent in New England became severe enough to produce talk of secession at the [Hartford Convention](https://en.wikipedia.org/wiki/Hartford_Convention).\n\nIn August 1814, a British force of about 4,500 routed American militia at the [Battle of Bladensburg](https://en.wikipedia.org/wiki/Battle_of_Bladensburg) and entered Washington. President Madison, who had personally been on the field at Bladensburg, fled west; First Lady Dolley Madison evacuated the Stuart portrait of Washington from the President's House before the British set it ablaze.\n\nThe state survived. Madison reconvened government, the army stabilized, and the war ended with the Treaty of Ghent in December 1814 (the Battle of New Orleans, two weeks later, was fought before news arrived). After peace, the army returned to peacetime size. No general used the war's chaos to make a play for political authority.\n\nFor a Republic of barely thirty years, this was a serious test. A sitting president had presided over the burning of his own capital. The military, having watched all of that, simply went back to its peacetime configuration.",
+          "furtherReading": [
+            { "label": "Smithsonian — The Burning of Washington, 1814", "url": "https://www.smithsonianmag.com/history/the-burning-of-washington-180952042/" },
+            { "label": "Library of Congress — War of 1812", "url": "https://www.loc.gov/collections/war-of-1812/" },
+            { "label": "Wikipedia — War of 1812", "url": "https://en.wikipedia.org/wiki/War_of_1812" }
+          ]
+        },
+        {
+          "id": "nullification-1832",
+          "year": "1832–1833",
+          "title": "The Nullification Crisis",
+          "hook": "[Andrew Jackson](https://en.wikipedia.org/wiki/Andrew_Jackson) threatens federal force against South Carolina but defers to Congress. The Force Bill passes; armed conflict is averted.",
+          "detail": "South Carolina, led politically by Vice President [John C. Calhoun](https://en.wikipedia.org/wiki/John_C._Calhoun), declared the federal Tariffs of 1828 and 1832 'null and void' within state borders and threatened to secede if the federal government tried to enforce them. The state began organizing armed resistance.\n\nJackson's response, in his [Proclamation to the People of South Carolina](https://avalon.law.yale.edu/19th_century/jack01.asp) (December 1832), was unequivocal: nullification was treason; the Constitution was supreme; he would enforce federal law if necessary. Privately he reportedly said he would hang Calhoun if he found him in arms.\n\nBut critically, Jackson went to Congress for authority before he acted. The [Force Bill](https://en.wikipedia.org/wiki/Force_Bill) of 1833 explicitly authorized presidential use of military force to enforce federal law. Henry Clay simultaneously brokered a compromise tariff that gave South Carolina a face-saving exit. The state rescinded its nullification ordinance.\n\nThe pattern: a popular military president — Jackson had been a major general before he was a politician — staged a serious confrontation but routed it through Congress. The army was the instrument. Constitutional authority was the source. He did not act first and tell Congress later.",
+          "furtherReading": [
+            { "label": "The Avalon Project — Jackson's Nullification Proclamation, 1832", "url": "https://avalon.law.yale.edu/19th_century/jack01.asp" },
+            { "label": "Britannica — Nullification Crisis", "url": "https://www.britannica.com/event/Nullification-Crisis" },
+            { "label": "Wikipedia — Nullification Crisis", "url": "https://en.wikipedia.org/wiki/Nullification_crisis" }
+          ]
+        },
+        {
+          "id": "scott-polk-1846",
+          "year": "1846–1848",
+          "title": "Polk vs. Scott",
+          "hook": "[President Polk](https://en.wikipedia.org/wiki/James_K._Polk) repeatedly clashes with his most capable generals during the Mexican War. Each remains under civilian command.",
+          "detail": "President James K. Polk, a Democrat, was uncomfortable with the fact that his two best generals — [Winfield Scott](https://en.wikipedia.org/wiki/Winfield_Scott) and [Zachary Taylor](https://en.wikipedia.org/wiki/Zachary_Taylor) — were prominent Whigs and likely future presidential candidates. He was right to worry: Taylor would defeat his party's nominee in 1848, partly on the strength of his Mexican War record.\n\nThe political tensions did not become constitutional ones. Polk reorganized command, redirected supply, and at one point initiated court-martial proceedings against Scott — but operated within the chain of authority Congress and the Constitution defined. Scott's brilliant Veracruz–Mexico City campaign in 1847 settled the war on American terms.\n\nAfter the peace treaty was signed at [Guadalupe Hidalgo](https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo) in February 1848, Scott returned home. Taylor accepted the Whig nomination and won. There was no question, at any point, of the army acting against the elected government.\n\nThe Mexican War established a 19th-century pattern that would echo to MacArthur a century later: presidential discomfort with militarily successful generals, managed through civilian-controlled processes rather than informal compromises with the chain of command.",
+          "furtherReading": [
+            { "label": "Library of Congress — The Mexican-American War", "url": "https://www.loc.gov/collections/mexican-american-war/" },
+            { "label": "Wikipedia — Mexican–American War", "url": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War" },
+            { "label": "Wikipedia — Treaty of Guadalupe Hidalgo", "url": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo" }
+          ]
+        },
+        {
+          "id": "lincoln-command-1861",
+          "year": "1861",
+          "title": "Lincoln assumes wartime command",
+          "hook": "[Lincoln](https://en.wikipedia.org/wiki/Abraham_Lincoln) expands executive war powers radically — but inside constitutional structures. He answers to Congress and the courts.",
+          "detail": "Within weeks of taking office, Lincoln faced a war for the Union's existence. He acted, often without prior congressional authorization: he called up 75,000 state militiamen, expanded the regular army, blockaded Southern ports, and famously suspended the writ of habeas corpus along the Baltimore-Washington corridor.\n\nChief Justice [Roger Taney](https://en.wikipedia.org/wiki/Roger_B._Taney), riding circuit, ruled in [Ex parte Merryman](https://en.wikipedia.org/wiki/Ex_parte_Merryman) (1861) that only Congress could suspend habeas corpus. Lincoln ignored the ruling — but he then went to Congress and asked for retrospective authorization, which Congress provided. The 1863 Habeas Corpus Suspension Act formally placed the executive's wartime authority on a statutory footing.\n\nThis was the pattern throughout the Civil War: Lincoln expanded executive power further than any predecessor, then anchored each expansion in legislation, supreme-court review, or the political accountability of his own re-election in 1864 — which he genuinely believed he might lose, and refused to postpone.\n\nWashington's precedent was that the executive defers to civilian institutions. Lincoln's expansion looked like a contradiction. It was actually an extension: the executive could act with enormous force during emergency, but only under structures that could check, ratify, or reject what he had done. The general public re-elected him; that was civilian authority answering.",
+          "furtherReading": [
+            { "label": "National Constitution Center — Lincoln's Suspension of Habeas Corpus", "url": "https://constitutioncenter.org/blog/lincolns-suspension-of-habeas-corpus" },
+            { "label": "Wikipedia — Suspension of habeas corpus by Abraham Lincoln", "url": "https://en.wikipedia.org/wiki/Suspension_of_habeas_corpus_by_Abraham_Lincoln" },
+            { "label": "Library of Congress — Abraham Lincoln Papers", "url": "https://www.loc.gov/collections/abraham-lincoln-papers/" }
+          ]
+        },
+        {
+          "id": "lincoln-mcclellan-1862",
+          "year": "Nov 1862",
+          "title": "Lincoln removes McClellan",
+          "hook": "[Lincoln](https://en.wikipedia.org/wiki/Abraham_Lincoln) dismisses [General George McClellan](https://en.wikipedia.org/wiki/George_B._McClellan) — a popular wartime commander with presidential ambitions. The Army of the Potomac complies.",
+          "detail": "George B. McClellan was the most politically dangerous general in American history before MacArthur. He commanded the largest army in the field, was idolized by his men, despised Lincoln in private (calling him 'the original gorilla'), and openly opposed Republican war aims, including emancipation.\n\nThe military problem was simpler: McClellan would not fight. After the [Battle of Antietam](https://en.wikipedia.org/wiki/Battle_of_Antietam) in September 1862 — a costly tactical draw that Lincoln converted into a strategic victory by issuing the preliminary Emancipation Proclamation — McClellan refused to pursue Lee's bloodied army into Virginia. Lincoln visited him in the field, came home, and on November 5 sent the order: McClellan was relieved.\n\nThe army did not mutiny. Some of his officers grumbled; one or two threatened to resign in solidarity, but did not. McClellan went home to New Jersey, was nominated by the Democrats in 1864 on a peace platform, and lost decisively to Lincoln. He never threatened to resist his removal by force or by political-military hybrid means.\n\nThe resonance with Newburgh is direct. A celebrated, charismatic, politically ambitious officer was removed by a civilian leader in the middle of a war the Republic was losing. The army accepted the order. The general accepted the order. The fight moved to the ballot box.",
+          "furtherReading": [
+            { "label": "Smithsonian — Why Lincoln Fired McClellan", "url": "https://www.smithsonianmag.com/history/why-lincoln-fired-mcclellan-180956741/" },
+            { "label": "Wikipedia — George B. McClellan", "url": "https://en.wikipedia.org/wiki/George_B._McClellan" },
+            { "label": "American Battlefield Trust — McClellan", "url": "https://www.battlefields.org/learn/biographies/george-b-mcclellan" }
+          ]
+        },
+        {
+          "id": "appomattox-1865",
+          "year": "April 1865",
+          "title": "Appomattox surrender",
+          "hook": "[Lee](https://en.wikipedia.org/wiki/Robert_E._Lee) surrenders to [Grant](https://en.wikipedia.org/wiki/Ulysses_S._Grant). No order to fight on as guerillas. The Confederate army disperses into civilian life.",
+          "detail": "By the spring of 1865, the Army of Northern Virginia had been pursued out of the trenches at Petersburg and brought to bay by Grant near Appomattox Court House. On April 9, Lee met Grant in the parlor of Wilmer McLean's farmhouse to discuss terms.\n\nThe plausible alternative was guerilla war. Lee's officers raised it explicitly — the men could disperse into the mountains and the South could continue fighting at the cost of farms, towns, and decades of irregular violence. Lee refused. He told Grant that men should be allowed to keep their horses for the spring planting and accepted parole conditions for the army.\n\nWithin two months, the other Confederate armies followed Lee's example. [Joseph E. Johnston](https://en.wikipedia.org/wiki/Joseph_E._Johnston) surrendered to Sherman; Richard Taylor surrendered in Alabama; Kirby Smith in Texas. There was no continuation. There was no shadow government in exile. The Confederate war ended on a precedent of soldiers going home rather than fighting on as a partisan force.\n\nWhat could have been a generation of armed insurgency became, instead, a hard but bounded political conflict over Reconstruction. Newburgh's principle — that an army with a grievance still goes home when the war ends — held even on the losing side, and even after a war fought to keep the Republic from breaking.",
+          "furtherReading": [
+            { "label": "American Battlefield Trust — Appomattox Court House", "url": "https://www.battlefields.org/learn/civil-war/battles/appomattox-court-house" },
+            { "label": "National Park Service — Appomattox Court House", "url": "https://www.nps.gov/apco/index.htm" },
+            { "label": "Wikipedia — Battle of Appomattox Court House", "url": "https://en.wikipedia.org/wiki/Battle_of_Appomattox_Court_House" }
+          ]
+        },
+        {
+          "id": "reconstruction-1867",
+          "year": "1867–1877",
+          "title": "Military Reconstruction",
+          "hook": "The South is governed by the Army for a decade — under civilian congressional authority. The military serves Congress's policy, not its own.",
+          "detail": "After President Andrew Johnson's vetoes failed and Republicans gained a veto-proof majority in Congress, the [Reconstruction Acts](https://en.wikipedia.org/wiki/Reconstruction_Acts) of 1867 placed the former Confederate states under military government. Five military districts were created, each commanded by a general officer, each tasked with overseeing voter registration, including the registration of newly freed Black men, and the drafting of new state constitutions.\n\nThis was a Republic governing part of itself with the army. It was constitutionally awkward. The crucial design choice: the generals reported through the Secretary of War to the President — but Congress, through the [Tenure of Office Act](https://en.wikipedia.org/wiki/Tenure_of_Office_Act) and the impeachment of Andrew Johnson, made clear that the policy direction came from the legislature. The generals enforced civilian-set policy.\n\nThe period saw extraordinary results — Black men elected to Congress for the first time, public schools created across the South — and extraordinary failures, including the rise of the Ku Klux Klan and white-supremacist counter-violence. Federal troops were used to suppress Klan paramilitaries under the Ku Klux Klan Act of 1871.\n\nWhen the [Compromise of 1877](https://en.wikipedia.org/wiki/Compromise_of_1877) ended Reconstruction in exchange for Republican control of the disputed presidential election, the army withdrew from the South on a civilian political decision. It did not stay because it could not be removed. The norm: even when the military was the most effective instrument of national policy in a region, it left when civilian leadership said leave.",
+          "furtherReading": [
+            { "label": "Library of Congress — Reconstruction and Its Aftermath", "url": "https://www.loc.gov/exhibits/african-american-odyssey/reconstruction.html" },
+            { "label": "Wikipedia — Reconstruction era", "url": "https://en.wikipedia.org/wiki/Reconstruction_era" },
+            { "label": "Wikipedia — Reconstruction Acts", "url": "https://en.wikipedia.org/wiki/Reconstruction_Acts" }
+          ]
+        },
+        {
+          "id": "spanish-american-1898",
+          "year": "1898",
+          "title": "Spanish-American War",
+          "hook": "[McKinley](https://en.wikipedia.org/wiki/William_McKinley) leads a popular war from civilian conviction. The Army acquires colonies; the chain of command stays civilian.",
+          "detail": "The destruction of the USS Maine in Havana harbor in February 1898 turned a long-running Cuban independence conflict into an American war. Congress declared war on Spain in April; within four months, the United States had defeated Spain and acquired Puerto Rico, Guam, the Philippines, and a protectorate over Cuba.\n\nThe war was popular. Theodore Roosevelt resigned as Assistant Secretary of the Navy to lead a volunteer cavalry regiment up [San Juan Hill](https://en.wikipedia.org/wiki/Battle_of_San_Juan_Hill); the celebration of the war powered him to the vice presidency two years later. The military's heroes did very well in postwar civilian politics.\n\nWhat is notable from a civil-military standpoint is what didn't happen. There was no military objection to handing the Philippines back to civilian colonial administration. There was no general who used the war's victories as a personal political base outside the constitutional framework. Roosevelt himself ran for vice president — through the party system, like every other ambitious officer turned politician.\n\nThe Spanish-American War was the United States' transition into a global power. The civilian-military settlement scaled to fit. American empire was, for better or worse, a civilian project — debated, declared, and conducted through Congress and the President.",
+          "furtherReading": [
+            { "label": "Library of Congress — The Spanish-American War", "url": "https://www.loc.gov/collections/spanish-american-war-in-motion-pictures/" },
+            { "label": "Wikipedia — Spanish–American War", "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War" },
+            { "label": "U.S. State Department — The Spanish-American War", "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war" }
+          ]
+        },
+        {
+          "id": "wilson-pershing-1917",
+          "year": "1917–1918",
+          "title": "Wilson and Pershing",
+          "hook": "[General John J. Pershing](https://en.wikipedia.org/wiki/John_J._Pershing) leads the American Expeditionary Force. Every strategic decision routes through [Wilson](https://en.wikipedia.org/wiki/Woodrow_Wilson) and Secretary of War [Newton Baker](https://en.wikipedia.org/wiki/Newton_D._Baker).",
+          "detail": "When the United States entered the Great War in April 1917, the regular army numbered fewer than 130,000 men. Within eighteen months, two million American soldiers were in France. Pershing, a brigadier promoted over many seniors, commanded them with a degree of operational autonomy unprecedented in American history.\n\nThe pressures on the chain of command were extraordinary. The British and French wanted American divisions broken up and integrated into existing Allied units, under European generals. Pershing refused, on civilian instruction: the AEF would fight as an American army. He met directly with Allied prime ministers and field marshals. He had genuine strategic discretion.\n\nBut every consequential decision — entering the war, the size of the force, the terms of engagement, demobilization — was made by Wilson and Baker. Pershing's enormous postwar prestige was channeled into the Army Chief of Staff role through 1924, then into a quiet retirement. He never sought the presidency. He never threatened civilian leadership.\n\nThe pattern was the same as Pershing's predecessors but at vastly larger scale. World War I demonstrated that the constitutional design could absorb the United States' transformation into a great industrial power without the military emerging as an independent political actor — even when its commander was the most famous American in uniform since Grant.",
+          "furtherReading": [
+            { "label": "Wikipedia — American Expeditionary Forces", "url": "https://en.wikipedia.org/wiki/American_Expeditionary_Forces" },
+            { "label": "Library of Congress — World War I", "url": "https://www.loc.gov/collections/world-war-i/" },
+            { "label": "Wikipedia — John J. Pershing", "url": "https://en.wikipedia.org/wiki/John_J._Pershing" }
+          ]
+        },
+        {
+          "id": "bonus-army-1932",
+          "year": "July 1932",
+          "title": "The Bonus Army",
+          "hook": "[General MacArthur](https://en.wikipedia.org/wiki/Douglas_MacArthur) exceeds [Hoover's](https://en.wikipedia.org/wiki/Herbert_Hoover) orders dispersing veterans from Washington. The civilian framework holds — but the line is bright.",
+          "detail": "In the summer of 1932, between 17,000 and 25,000 unemployed World War I veterans — the [Bonus Expeditionary Force](https://en.wikipedia.org/wiki/Bonus_Army) — and their families camped in shanties on the Anacostia Flats, demanding early payment of bonuses Congress had voted them in 1924 but scheduled for 1945.\n\nWhen Senate rejection of the bill led to scuffles between veterans and police, two veterans died. President Hoover ordered Army Chief of Staff Douglas MacArthur to clear federal property in downtown Washington. He explicitly forbade pursuit across the Anacostia River into the main encampment.\n\nMacArthur disregarded the order. He sent troops, including tanks under Major George S. Patton and infantry under Major Dwight D. Eisenhower, across the river and burned the camp. Two veterans were killed. The country was horrified.\n\nHoover did not publicly punish him. There were Army inquiries, but no removal, no public censure, no clear statement from the President that his Chief of Staff had defied a direct order. The constitutional principle held in form — the army did not march on Congress, the order had originated from the President — but the accountability piece, the part Truman would later make famous, was conspicuously absent. Twenty years later, the same general would test the same line in a more public way, and the country would be ready for a clearer answer.",
+          "furtherReading": [
+            { "label": "Smithsonian — The Bonus Army", "url": "https://www.smithsonianmag.com/history/marching-on-history-75797769/" },
+            { "label": "PBS — The Bonus Army", "url": "https://www.pbs.org/wgbh/americanexperience/features/macarthur-bonus-march/" },
+            { "label": "Wikipedia — Bonus Army", "url": "https://en.wikipedia.org/wiki/Bonus_Army" }
+          ]
+        },
+        {
+          "id": "nat-sec-act-1947",
+          "year": "1947",
+          "title": "National Security Act",
+          "hook": "The Department of Defense is created with a civilian Secretary at its head. Civilian primacy gets statutory form in the postwar era.",
+          "detail": "The end of World War II left the United States with a wartime defense apparatus — a War Department for the Army, a Navy Department for the fleet and the Marines, an Army Air Forces angling for independence, and a wartime intelligence service (the Office of Strategic Services) being dismantled. The argument over how to organize for peacetime great-power status took two years.\n\nThe [National Security Act of 1947](https://en.wikipedia.org/wiki/National_Security_Act_of_1947) made the choices that still structure American defense. It unified the services under a National Military Establishment (renamed the Department of Defense in 1949) led by a civilian Secretary. It created an independent Air Force. It established the [Joint Chiefs of Staff](https://en.wikipedia.org/wiki/Joint_Chiefs_of_Staff) as advisors — not commanders. It created the Central Intelligence Agency under civilian direction.\n\nThe distinction between advisors and commanders was deliberate. The JCS could plan; they could recommend; they could speak privately and (with limits) publicly. They could not order forces in the field. The chain of command ran from the President through the Secretary of Defense to unified combatant commanders — civilian, civilian, military.\n\nThe architecture would be tested in Korea four years later, refined by Goldwater-Nichols in 1986, and adapted continuously since. But the underlying premise has not changed: civilians at the top, military advice channeled into civilian decision, military execution under civilian command.",
+          "furtherReading": [
+            { "label": "U.S. Department of Defense — National Security Act", "url": "https://www.defense.gov/About/" },
+            { "label": "Office of the Director of National Intelligence — National Security Act of 1947", "url": "https://www.dni.gov/index.php/ic-legal-reference-book/national-security-act-of-1947" },
+            { "label": "Wikipedia — National Security Act of 1947", "url": "https://en.wikipedia.org/wiki/National_Security_Act_of_1947" }
+          ]
+        },
+        {
+          "id": "truman-macarthur-1951",
+          "year": "April 1951",
+          "title": "Truman fires MacArthur",
+          "hook": "[General MacArthur](https://en.wikipedia.org/wiki/Douglas_MacArthur) publicly defies [Truman's](https://en.wikipedia.org/wiki/Harry_S._Truman) Korean War policy. Truman dismisses him. The general goes home.",
+          "detail": "Five-star General of the Army Douglas MacArthur, commanding U.N. forces in Korea, was the most decorated officer in American history and one of its most famous men. He was also publicly opposed to Truman's policy of limited war — a war fought to restore the prewar border at the 38th parallel, not to defeat China.\n\nThrough the winter of 1950–1951, MacArthur began making his disagreements public. He gave interviews calling for bombing of Chinese territory. He sent a letter to House Republican leader Joseph Martin, knowing Martin would read it aloud on the floor, ending with the line 'There is no substitute for victory.' He effectively ran a parallel foreign policy from Tokyo.\n\nOn the morning of April 11, 1951, after consultation with the Joint Chiefs (who unanimously concurred), Truman released a statement removing MacArthur from all his commands. The statement was issued at 1 a.m. to ensure MacArthur was not informed by a leak; he learned of his removal from a radio broadcast.\n\nMacArthur returned to the largest hero's welcome in American history. He addressed a joint session of Congress with the line 'Old soldiers never die; they just fade away.' Polls showed Americans overwhelmingly supported him over Truman. Senate hearings ran for weeks. And then — nothing. The general retired. The war continued under Truman's strategy. Truman left office with one of the lowest approval ratings of any modern president.\n\nThis is what the principle costs sometimes. Truman was politically destroyed for asserting it. Two years later he was back in private life and MacArthur was a memory. The norm held — at the price of a presidency.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/MacArthur_Truman_Wake_Island.jpg",
+          "imageAlt": "President Truman with General MacArthur at Wake Island, October 1950",
+          "imagePosition": "50% 45%",
+          "furtherReading": [
+            { "label": "Truman Library — Relief of General MacArthur", "url": "https://www.trumanlibrary.gov/education/online-collections/korean-war/relief-general-macarthur" },
+            { "label": "PBS American Experience — MacArthur", "url": "https://www.pbs.org/wgbh/americanexperience/films/macarthur/" },
+            { "label": "Wikipedia — Relief of Douglas MacArthur", "url": "https://en.wikipedia.org/wiki/Relief_of_Douglas_MacArthur" }
+          ]
+        },
+        {
+          "id": "little-rock-1957",
+          "year": "1957",
+          "title": "Eisenhower at Little Rock",
+          "hook": "[Eisenhower](https://en.wikipedia.org/wiki/Dwight_D._Eisenhower) federalizes the Arkansas National Guard to enforce [Brown v. Board](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education). The military serves the Constitution, against state political will.",
+          "detail": "After the Supreme Court's 1954 [Brown v. Board of Education](https://en.wikipedia.org/wiki/Brown_v._Board_of_Education) ruling and its 1955 implementation order, Little Rock's Central High School was scheduled to admit nine Black students in September 1957. Arkansas Governor [Orval Faubus](https://en.wikipedia.org/wiki/Orval_Faubus), under intense political pressure from segregationists, ordered the Arkansas National Guard to surround the school and prevent the students from entering.\n\nThis was a constitutional crisis. A state government had used military force — the Guard, technically under federal command in a national emergency — to defy a federal court order implementing a federal Supreme Court ruling. President Eisenhower, who privately had reservations about the speed of desegregation, did not have reservations about the chain of authority. He federalized the Arkansas National Guard, removing it from Faubus's control, and deployed elements of the [101st Airborne Division](https://en.wikipedia.org/wiki/101st_Airborne_Division) to escort the students into the school.\n\nFor the first time since Reconstruction, federal troops were used to enforce civil rights against the political will of a state government. Eisenhower addressed the country on television: 'Mob rule cannot be allowed to override the decisions of our courts.'\n\nThe military's job was to enforce the law. The political cost was severe — Eisenhower lost much of his Southern support — but the precedent stuck. When civil-rights enforcement needed armed federal backing again in the 1960s, the playbook existed. The army had been used not to suppress civilian dissent, but to enforce the rights of the most vulnerable citizens against state power.",
+          "furtherReading": [
+            { "label": "Eisenhower Library — Little Rock School Integration Crisis", "url": "https://www.eisenhowerlibrary.gov/research/online-documents/civil-rights-little-rock-school-integration-crisis" },
+            { "label": "Wikipedia — Little Rock Nine", "url": "https://en.wikipedia.org/wiki/Little_Rock_Nine" },
+            { "label": "National Park Service — Little Rock Central High School", "url": "https://www.nps.gov/chsc/index.htm" }
+          ]
+        },
+        {
+          "id": "missile-crisis-1962",
+          "year": "October 1962",
+          "title": "Cuban Missile Crisis",
+          "hook": "JCS recommends invasion of Cuba. [Kennedy](https://en.wikipedia.org/wiki/John_F._Kennedy) chooses quarantine. Civilian judgment overrules unanimous military advice — and avoids nuclear war.",
+          "detail": "When U-2 reconnaissance photos confirmed Soviet medium-range nuclear missiles in Cuba on October 14, 1962, the [Joint Chiefs](https://en.wikipedia.org/wiki/Joint_Chiefs_of_Staff) reached unanimous consensus: bomb the missile sites and follow with a full invasion. Air Force Chief Curtis LeMay reportedly told Kennedy that any other course of action 'would be almost as bad as the appeasement at Munich.'\n\nKennedy chose differently. He convened the Executive Committee of the National Security Council ('ExComm'), which deliberated for thirteen days, and ultimately ordered a naval 'quarantine' of Cuba — a blockade in everything but the legal name — combined with intense back-channel diplomacy with Khrushchev.\n\nWe now know, from declassified Soviet documents, that the missiles were closer to operational than American intelligence believed, that Soviet submarines escorting cargo ships toward Cuba were carrying nuclear torpedoes, and that on at least one occasion a Soviet submarine officer prevented his colleagues from launching a nuclear weapon during the quarantine. An invasion would very likely have triggered nuclear war.\n\n[Robert F. Kennedy](https://en.wikipedia.org/wiki/Robert_F._Kennedy), who was Attorney General during the crisis, later wrote that the moment crystallized something for him about civilian control: that the most senior military advice in the country, given in good faith and on the strength of decades of experience, was nearly catastrophic. The President's job was not to take it as command. His job was to weigh it as one input among many.",
+          "furtherReading": [
+            { "label": "JFK Library — The Cuban Missile Crisis, October 1962", "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis" },
+            { "label": "National Security Archive — Cuban Missile Crisis Documents", "url": "https://nsarchive.gwu.edu/project/cuban-missile-crisis" },
+            { "label": "Wikipedia — Cuban Missile Crisis", "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis" }
+          ]
+        },
+        {
+          "id": "war-powers-1973",
+          "year": "November 1973",
+          "title": "War Powers Resolution",
+          "hook": "Congress, over [Nixon's](https://en.wikipedia.org/wiki/Richard_Nixon) veto, reasserts its constitutional war-declaration role. Article I claws back from Article II.",
+          "detail": "The Vietnam War was fought without a formal declaration of war. The [Gulf of Tonkin Resolution](https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Resolution) of 1964, granting the president broad authority to use force, was an authorization but not a declaration. By the early 1970s, Congress, the public, and even many in the military felt the executive had effectively appropriated the constitutional war power.\n\nThe [War Powers Resolution](https://en.wikipedia.org/wiki/War_Powers_Resolution) of November 1973 was Congress's response. It required the President to consult with Congress before introducing armed forces into hostilities, to notify Congress within 48 hours of any deployment, and to withdraw forces within 60 days unless Congress authorized continued action.\n\nNixon vetoed it. Congress overrode the veto on November 7, 1973 — the same week the Watergate scandal was rapidly closing in on the presidency. The political weakness of Nixon's administration meant this confrontation between the branches went the legislature's way.\n\nEvery president since has considered the War Powers Resolution constitutionally suspect, and every one has filed reports under it 'consistent with' its terms rather than 'in compliance with' them. Compliance has been contested. The principle the Resolution asserts — that committing American forces to hostilities is a shared decision, not a presidential one — has not been formally relinquished by Congress, even when it has not been actively enforced.",
+          "furtherReading": [
+            { "label": "Library of Congress — War Powers", "url": "https://www.loc.gov/law/help/war-powers.php" },
+            { "label": "Congressional Research Service — War Powers Resolution", "url": "https://crsreports.congress.gov/product/pdf/RL/RL33532" },
+            { "label": "Wikipedia — War Powers Resolution", "url": "https://en.wikipedia.org/wiki/War_Powers_Resolution" }
+          ]
+        },
+        {
+          "id": "nixon-resigns-1974",
+          "year": "August 1974",
+          "title": "Nixon resigns",
+          "hook": "Facing impeachment, [Nixon](https://en.wikipedia.org/wiki/Richard_Nixon) resigns. Defense Secretary [Schlesinger](https://en.wikipedia.org/wiki/James_R._Schlesinger) reportedly directs the JCS to verify any improper orders. The military stays neutral.",
+          "detail": "By August 1974, Nixon's presidency was collapsing. The release of the 'smoking gun' tape on August 5 made it clear he would be impeached and removed; on August 8 he announced his resignation, effective the following day.\n\nIn the period between the Saturday Night Massacre of October 1973 and the resignation, defense and senior White House officials reportedly worried that an isolated, drinking president might issue an order to use military force in a way that would compound the constitutional crisis. According to multiple later accounts, Defense Secretary James Schlesinger informally instructed the [Joint Chiefs](https://en.wikipedia.org/wiki/Joint_Chiefs_of_Staff) to route any unusual military order from the President through him or the Secretary of State before executing it.\n\nWhether or not Schlesinger's instruction was constitutionally proper or strictly necessary is contested. What is not contested is that the senior military leadership of the United States believed itself bound by the Constitution rather than by the person of the President — and acted as a steady professional brake during a presidency that was unraveling.\n\nNixon's resignation, accepted by Vice President Gerald Ford, was the second great test of peaceful transition since Jefferson — this time not between parties but between a disgraced incumbent and his constitutional successor. The military's role, for the second time in two centuries, was to do nothing visible. That was the right answer.",
+          "furtherReading": [
+            { "label": "Atlantic Monthly — When Nixon Was on the Brink", "url": "https://www.theatlantic.com/" },
+            { "label": "Wikipedia — Resignation of Richard Nixon", "url": "https://en.wikipedia.org/wiki/Resignation_of_Richard_Nixon" },
+            { "label": "Wikipedia — James R. Schlesinger", "url": "https://en.wikipedia.org/wiki/James_R._Schlesinger" }
+          ]
+        },
+        {
+          "id": "goldwater-nichols-1986",
+          "year": "1986",
+          "title": "Goldwater-Nichols Act",
+          "hook": "The most significant reorganization of the U.S. military since 1947. Joint command structure. Civilian Secretary's authority strengthened.",
+          "detail": "The Vietnam War, the Iranian hostage rescue failure ([Operation Eagle Claw](https://en.wikipedia.org/wiki/Operation_Eagle_Claw)) in 1980, and the chaotic 1983 invasion of Grenada exposed deep coordination problems among the services. Each service ran its own war. The Joint Chiefs of Staff, designed in 1947 as a forum, had become a committee in which each chief defended his own service's prerogatives.\n\nThe [Goldwater-Nichols Department of Defense Reorganization Act](https://en.wikipedia.org/wiki/Goldwater%E2%80%93Nichols_Act) of 1986 made the [Chairman of the Joint Chiefs of Staff](https://en.wikipedia.org/wiki/Chairman_of_the_Joint_Chiefs_of_Staff) the principal military advisor to the President — but routed operational command through unified combatant commanders, each responsible for a region of the world or a function (special operations, transportation), and each reporting through the civilian Secretary of Defense to the President.\n\nThe act also required officers to serve in joint billets to be promoted to flag rank, breaking the parochial service-tribalism that had complicated joint operations. It strengthened the Secretary of Defense's authority over the services in budgeting, planning, and acquisition.\n\nIts effects were visible in the first Gulf War five years later: a single combatant commander, [Norman Schwarzkopf](https://en.wikipedia.org/wiki/Norman_Schwarzkopf_Jr.), running a joint and coalition operation, advised by a Chairman ([Colin Powell](https://en.wikipedia.org/wiki/Colin_Powell)) speaking for the entire armed forces, all under a civilian Secretary and President. The reform reinforced civilian primacy by making the chain it ran through cleaner.",
+          "furtherReading": [
+            { "label": "Wikipedia — Goldwater–Nichols Act", "url": "https://en.wikipedia.org/wiki/Goldwater%E2%80%93Nichols_Act" },
+            { "label": "U.S. Naval War College — Goldwater-Nichols", "url": "https://www.usnwc.edu/" },
+            { "label": "Joint Chiefs of Staff History", "url": "https://www.jcs.mil/About/" }
+          ]
+        },
+        {
+          "id": "gulf-war-1991",
+          "year": "1990–1991",
+          "title": "Gulf War chain of command",
+          "hook": "[Bush 41](https://en.wikipedia.org/wiki/George_H._W._Bush), [Powell](https://en.wikipedia.org/wiki/Colin_Powell), and [Schwarzkopf](https://en.wikipedia.org/wiki/Norman_Schwarzkopf_Jr.) operate as a textbook chain. Powell would later cross the line — into civilian service.",
+          "detail": "When Iraq invaded Kuwait in August 1990, President Bush built an international coalition of 35 nations and a domestic political coalition that included a narrow but solid Senate vote authorizing force. The military operation that followed, [Desert Storm](https://en.wikipedia.org/wiki/Gulf_War), was prosecuted with a clarity of command that civics textbooks could use as an illustration.\n\nGeneral H. Norman Schwarzkopf, commanding U.S. Central Command, ran the operation. General Colin Powell, Chairman of the Joint Chiefs of Staff, advised the President and translated political guidance into military requirements. Secretary of Defense Dick Cheney spoke for the President to the chain. The President made the consequential calls: when to start, when to stop. The decision to halt operations after 100 hours of ground war, leaving Saddam Hussein in power, was Bush's, made on Powell's and Cheney's advice.\n\nPowell's career after the war is the more interesting civic-military story. He became one of the most popular men in America, considered presidential runs in 1996 and 2000, and ultimately served as Secretary of State from 2001 to 2005 — a civilian role.\n\nThe line between his uniformed and civilian service became, by his own design, a clean break. He retired before he ran for civilian office. He retired before he advocated publicly on policy. He treated the line as Washington had treated it: not a blurred zone, but an actual line, walked across once and not back.",
+          "furtherReading": [
+            { "label": "Wikipedia — Gulf War", "url": "https://en.wikipedia.org/wiki/Gulf_War" },
+            { "label": "Wikipedia — Colin Powell", "url": "https://en.wikipedia.org/wiki/Colin_Powell" },
+            { "label": "PBS — The Gulf War", "url": "https://www.pbs.org/wgbh/pages/frontline/gulf/" }
+          ]
+        },
+        {
+          "id": "dadt-1993",
+          "year": "1993",
+          "title": "Don't Ask, Don't Tell",
+          "hook": "Civilians set personnel policy for the military, even against military preference. The norm: who serves is a civilian decision.",
+          "detail": "President [Clinton](https://en.wikipedia.org/wiki/Bill_Clinton) campaigned in 1992 on lifting the longstanding ban on gay service members. After taking office he encountered a sustained public opposition led by Joint Chiefs Chairman Colin Powell and Senator Sam Nunn (Democrat of Georgia, chair of Armed Services). The military leadership argued strenuously and publicly that lifting the ban would damage unit cohesion and recruiting.\n\nThe compromise that emerged — [Don't Ask, Don't Tell](https://en.wikipedia.org/wiki/Don%27t_Ask,_Don%27t_Tell) — allowed gay Americans to serve only if they did not disclose their orientation, while prohibiting investigations into orientation absent disclosure. It was opposed by gay-rights advocates, who saw it as institutionalizing discrimination, and by parts of the military leadership, who would have preferred the original ban.\n\nThe policy was nonetheless adopted, modified, and ultimately repealed in 2010 — every step by civilian decision. Congress repealed DADT under President Obama after a Pentagon review concluded that ending the policy would not damage readiness. By 2011, gay Americans could serve openly.\n\nThe DADT episode is sometimes told as a story of civilian capitulation to military preference, and there's truth in that. It is also a story of civilian authority over personnel policy: even at the high-water mark of military influence on a social question, the question was decided in Congress and the White House. Policy ratchets back and forth on civilian arguments, on civilian votes. Military preference does not set military policy.",
+          "furtherReading": [
+            { "label": "Wikipedia — Don't Ask, Don't Tell", "url": "https://en.wikipedia.org/wiki/Don%27t_Ask,_Don%27t_Tell" },
+            { "label": "Wikipedia — Don't Ask, Don't Tell Repeal Act of 2010", "url": "https://en.wikipedia.org/wiki/Don%27t_Ask,_Don%27t_Tell_Repeal_Act_of_2010" },
+            { "label": "Pentagon Report on DADT, 2010", "url": "https://archive.defense.gov/home/features/2010/0610_dadt/" }
+          ]
+        },
+        {
+          "id": "mcchrystal-2010",
+          "year": "June 2010",
+          "title": "McChrystal fired",
+          "hook": "[Rolling Stone](https://en.wikipedia.org/wiki/The_Runaway_General) publishes a profile in which [General McChrystal's](https://en.wikipedia.org/wiki/Stanley_A._McChrystal) staff disparages the administration. [Obama](https://en.wikipedia.org/wiki/Barack_Obama) dismisses him within days.",
+          "detail": "Stanley A. McChrystal commanded U.S. and ISAF forces in Afghanistan from 2009 to 2010, leading the implementation of the counterinsurgency strategy he had argued for inside the administration. He was a celebrated officer with a reputation for personal asceticism, intellectual seriousness, and willingness to engage hostile reporters.\n\nThe Rolling Stone article that published in June 2010 — written by [Michael Hastings](https://en.wikipedia.org/wiki/Michael_Hastings_(journalist)) — was unsparing. McChrystal's staff was quoted disparaging Vice President Biden, National Security Advisor Jim Jones, U.S. Ambassador to Afghanistan Karl Eikenberry, and the special representative to Afghanistan Richard Holbrooke. McChrystal himself was quoted in less-direct but still embarrassing terms. The article presented a command climate in which the most senior civilian officials in the Afghanistan policy chain were being mocked by the team prosecuting the war.\n\nObama summoned McChrystal to Washington. Within 48 hours of the article reaching readers, the President had accepted his resignation and replaced him with General David Petraeus — McChrystal's superior, and the architect of the broader counterinsurgency doctrine. Obama's public remarks were brief and explicit: 'The conduct represented in the recently published article does not meet the standard that should be set by a commanding general.'\n\nThe pace mattered. Truman had agonized for months before relieving MacArthur, and paid for it politically. Obama acted in two days, on grounds the country could understand: this is not how a general talks about civilian leadership. The norm Truman had established held — and the playbook had been refined.",
+          "furtherReading": [
+            { "label": "The Runaway General — Rolling Stone (Wikipedia)", "url": "https://en.wikipedia.org/wiki/The_Runaway_General" },
+            { "label": "Wikipedia — Stanley A. McChrystal", "url": "https://en.wikipedia.org/wiki/Stanley_A._McChrystal" },
+            { "label": "Atlantic — McChrystal Out", "url": "https://www.theatlantic.com/" }
+          ]
+        },
+        {
+          "id": "lafayette-square-2020",
+          "year": "June 2020",
+          "title": "Lafayette Square",
+          "hook": "After military leaders walk with the President during a politically charged moment, Chairman [Mark Milley](https://en.wikipedia.org/wiki/Mark_Milley) apologizes. Defense Secretary [Mark Esper](https://en.wikipedia.org/wiki/Mark_Esper) publicly distances himself.",
+          "detail": "On June 1, 2020, during the protests following the murder of George Floyd, federal officers cleared protesters from [Lafayette Square](https://en.wikipedia.org/wiki/2020_Lafayette_Square_protester_removal) in front of the White House so President Trump could walk to St. John's Episcopal Church for a photograph. Chairman of the Joint Chiefs of Staff Mark Milley, in his combat fatigues, accompanied him on the short walk.\n\nThe optics drew immediate criticism — including from many retired generals, who saw the uniformed presence as the use of the military's symbolic authority for a political moment. Within a week, Milley delivered a video commencement address to the National Defense University in which he said: 'I should not have been there. My presence in that moment and in that environment created a perception of the military involved in domestic politics... It was a mistake that I have learned from, and I sincerely hope we all can learn from it.'\n\nDefense Secretary Mark Esper publicly broke with the President in a press conference the same week, opposing the use of the [Insurrection Act](https://en.wikipedia.org/wiki/Insurrection_Act_of_1807) to deploy active-duty troops to American streets. Esper would be removed from his position by tweet on November 9, 2020, after the election.\n\nThe Lafayette Square episode demonstrated the system both stressed and operating. The lapse — uniformed military leaders walking with the President during a contested civilian-political moment — was real. So was the correction: a Chairman publicly apologizing for being in the wrong place and a Defense Secretary publicly opposing the use of regulars on protesters. Two and a half centuries of professional norms produced the apology and the line in the sand. The system was tested. It pushed back.",
+          "furtherReading": [
+            { "label": "Wikipedia — 2020 Lafayette Square protester removal", "url": "https://en.wikipedia.org/wiki/2020_Lafayette_Square_protester_removal" },
+            { "label": "Mark Milley NDU Address (CSPAN)", "url": "https://www.c-span.org/video/?473148-1/general-mark-milley-apologizes-attending-white-house-photo-op" },
+            { "label": "Wikipedia — Mark Milley", "url": "https://en.wikipedia.org/wiki/Mark_Milley" }
+          ]
+        },
+        {
+          "id": "jan-6-2021",
+          "year": "January 2021",
+          "title": "January 6",
+          "hook": "An attempt to halt the Capitol's certification of a presidential election. The [military stayed in barracks](https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack).",
+          "detail": "The certification of the 2020 presidential election by a joint session of Congress on January 6, 2021 was interrupted by an [attack on the Capitol](https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack) by supporters of the outgoing president. Members of Congress and the Vice President were evacuated; the building was not cleared until evening, when certification resumed. The Vice President, Mike Pence, refused to refuse to certify.\n\nWhat is conspicuous from a civil-military standpoint is the absence of military action either way. The active-duty military took no role in the political dispute over the election results. The slow deployment of the D.C. National Guard during the breach — which has been the subject of multiple investigations — reflected logistical and political complications, not any uniformed contestation of the election outcome.\n\nIn the two weeks between the attack and the inauguration of [Joe Biden](https://en.wikipedia.org/wiki/Joe_Biden), the senior military leadership made publicly clear that they regarded the election as decided and the constitutional process as binding. Chairman Milley reportedly assured allies and counterparts that the U.S. military's chain of command was stable. The Joint Chiefs released a memo to the entire force: 'On January 20, 2021, in accordance with the Constitution, confirmed by the states and the courts, and certified by Congress, President-elect Biden will be inaugurated and will become our 46th Commander in Chief.'\n\nFor the second time in fifty years — after Nixon — the question of whether the military would intervene in a political crisis became the question of how visibly it would not. The answer was: very. The norm Washington made held in the most stress-tested moment of the 21st-century Republic.",
+          "furtherReading": [
+            { "label": "Wikipedia — January 6 United States Capitol attack", "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack" },
+            { "label": "Joint Chiefs Memo to the Force, January 12, 2021", "url": "https://www.jcs.mil/Media/News/News-Display/Article/2471866/" },
+            { "label": "House Select Committee on January 6 — Final Report", "url": "https://www.govinfo.gov/collection/january-6th-committee-final-report" }
+          ]
+        },
+        {
+          "id": "present-day",
+          "year": "Today",
+          "title": "The norm continues to be tested",
+          "hook": "In ongoing public disputes — over the military's role in domestic enforcement, in elections, in foreign policy — the principle Washington established at Newburgh continues to set the limits of debate.",
+          "detail": "The constitutional rule is unchanged: the President is Commander in Chief, the Secretary of Defense is a civilian, the chain of command runs from elected leadership through civilian appointees to uniformed officers, and the military serves the office, not the person.\n\nThe rule's enforcement is not automatic. It depends on dozens of small decisions every year — who is appointed, what is said in a press briefing, where a uniformed officer chooses to stand, what an outgoing administration does with classified material, what a Senate confirmation hearing scrutinizes — and on a few large ones each generation that draw bright lines or smudge them.\n\nThe present moment continues to test these lines. Debates over the use of active-duty military in domestic law enforcement, over generals' political endorsements after retirement, over the Pentagon's role during contested elections, over the appropriate response to politicization of military leadership — these are live questions, with stakes attached.\n\nWhat is striking from the perspective of 1783 is how durable the underlying norm has proven. A general who walked into a meeting of unpaid officers in a wooden building above the Hudson and reached for spectacles he hadn't shown them before — a man whose authority over those officers was essentially personal, who could plausibly have been induced to lead them against the Republic — chose instead a precedent that is still operative.\n\nThe precedent is not self-enforcing. Each generation contests its boundaries. That it has held this long is the standing answer to Newburgh.",
+          "furtherReading": [
+            { "label": "Mount Vernon — Civil-Military Relations Today", "url": "https://www.mountvernon.org/" },
+            { "label": "Brookings — Civil-Military Relations", "url": "https://www.brookings.edu/topic/civil-military-relations/" },
+            { "label": "War on the Rocks — Civil-Military Relations Archive", "url": "https://warontherocks.com/category/civil-military-relations/" }
+          ]
+        }
+      ]
+    }
+  }
+]

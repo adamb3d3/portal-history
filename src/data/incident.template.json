@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "id": "your-incident-slug",
+  "title": "Your Incident Title",
+  "date": "1999-12-31",
+  "dateLabel": "December 31, 1999",
+  "hook": "One sentence that makes a stranger want to click.",
+  "tags": ["optional", "filtering", "tags"],
+  "location": {
+    "lat": 0.0,
+    "lng": 0.0,
+    "label": "Place name shown on screen"
+  },
+  "flyby": {
+    "startAltitude": 2000000,
+    "endAltitude": 1500,
+    "headingDeg": 0,
+    "pitchDeg": 60,
+    "durationMs": 8000
+  },
+  "posterImageUrl": "/images/your-incident-poster.jpg",
+  "scenes": [
+    {
+      "kind": "caption",
+      "text": "Set the scene in one sentence.",
+      "sourceIds": ["source-id-1"],
+      "durationMs": 5000
+    },
+    {
+      "kind": "reenactment-step",
+      "text": "A specific moment that happened next.",
+      "sourceIds": ["source-id-2"],
+      "durationMs": 5000
+    }
+  ],
+  "payoff": {
+    "quote": "The line everything builds to.",
+    "attribution": "Speaker, date or context",
+    "sourceId": "source-id-1",
+    "durationMs": 8000
+  },
+  "sources": [
+    {
+      "id": "source-id-1",
+      "label": "Human-readable citation label",
+      "url": "https://example.org/document"
+    },
+    {
+      "id": "source-id-2",
+      "label": "Another source",
+      "url": "https://example.org/another"
+    }
+  ]
+}
