@@ -49,6 +49,10 @@ export default function StillStage({
   const prefersReducedMotion = useReducedMotion();
 
   const advance = useCallback(() => setIndex((i) => i + 1), []);
+  const goBack = useCallback(
+    () => setIndex((i) => Math.max(0, i - 1)),
+    [],
+  );
 
   // Title overlay visibility is *derived* — true only when we're on
   // scene 0 AND the auto-fade timer hasn't fired yet. This prevents
@@ -61,7 +65,10 @@ export default function StillStage({
       onComplete();
       return;
     }
-    const id = window.setTimeout(advance, scenes[index].durationMs);
+    // Effective duration = max(manifest, computed-from-text-length).
+    // Long-text scenes auto-linger; short ones use the manifest floor.
+    const ms = effectiveDurationMs(scenes[index]);
+    const id = window.setTimeout(advance, ms);
     return () => window.clearTimeout(id);
   }, [index, scenes, advance, onComplete]);
 
@@ -80,26 +87,28 @@ export default function StillStage({
   const isChapter = scene.kind === "caption" && !visual.url;
   const isPullQuote = scene.kind === "quote";
   const isFullFrame = isChapter || isPullQuote;
-  const seconds = scene.durationMs / 1000;
   const kb = kenBurnsFor(index, prefersReducedMotion ?? false);
 
   const wrapperClass = fullBleed
-    ? "relative w-full h-screen overflow-hidden bg-night-950 select-none cursor-pointer focus:outline-none"
-    : "relative aspect-video rounded-lg overflow-hidden border border-night-700 bg-night-950 select-none cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-ember";
+    ? "relative w-full h-screen overflow-hidden bg-night-950 select-none focus:outline-none"
+    : "relative aspect-video rounded-lg overflow-hidden border border-night-700 bg-night-950 select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-ember";
+
+  const seconds = effectiveDurationMs(scene) / 1000;
 
   return (
     <div
       className={wrapperClass}
-      role="button"
       tabIndex={0}
-      onClick={advance}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " " || e.key === "ArrowRight") {
           e.preventDefault();
           advance();
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          goBack();
         }
       }}
-      aria-label={`Scene ${index + 1} of ${scenes.length}. Press Enter to advance.`}
+      aria-label={`Scene ${index + 1} of ${scenes.length}. Left or right side to navigate; arrow keys also work.`}
     >
       {/* Crossfading content layer */}
       <AnimatePresence>
@@ -147,6 +156,34 @@ export default function StillStage({
           />
         </motion.div>
       </AnimatePresence>
+
+      {/* Click zones — left half goes back, right half goes forward.
+          Sit BELOW the progress bar / caption strip / year marker (z-30),
+          ABOVE the film grain and image (z<25). The caption strip is
+          pointer-events-none so clicks on captions fall through to here.
+          Inline links inside captions opt back IN to pointer events,
+          so they remain individually clickable. */}
+      <button
+        type="button"
+        onClick={goBack}
+        disabled={index === 0}
+        className="absolute top-[3px] bottom-[3px] left-0 w-1/2 z-[25] group focus:outline-none disabled:cursor-default"
+        aria-label="Previous scene"
+      >
+        <span className="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 text-3xl md:text-4xl text-stone-200 opacity-0 group-hover:opacity-50 group-disabled:opacity-0 transition-opacity duration-300 pointer-events-none select-none">
+          ‹
+        </span>
+      </button>
+      <button
+        type="button"
+        onClick={advance}
+        className="absolute top-[3px] bottom-[3px] right-0 w-1/2 z-[25] group focus:outline-none"
+        aria-label="Next scene"
+      >
+        <span className="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 text-3xl md:text-4xl text-stone-200 opacity-0 group-hover:opacity-50 transition-opacity duration-300 pointer-events-none select-none">
+          ›
+        </span>
+      </button>
 
       {/* Film grain — always visible, drives the celluloid feel */}
       <FilmGrain />
@@ -327,6 +364,40 @@ function FilmGrain() {
       <rect width="100%" height="100%" filter="url(#film-noise)" />
     </svg>
   );
+}
+
+/**
+ * Effective scene duration. The manifest's durationMs is treated as a
+ * floor; any scene with text long enough to require more reading time
+ * lingers longer automatically. Computed as: 1.5s for the image to
+ * register + (word count) / 2.8 wps for reading. Markdown link syntax
+ * is stripped before counting.
+ */
+function effectiveDurationMs(scene: Scene): number {
+  return Math.max(scene.durationMs, computeReadingMs(scene));
+}
+
+function computeReadingMs(scene: Scene): number {
+  let text = "";
+  switch (scene.kind) {
+    case "caption":
+    case "reenactment-step":
+      text = scene.text;
+      break;
+    case "quote":
+      text = `${scene.text} ${scene.attribution}`;
+      break;
+    case "image":
+      text = scene.caption ?? "";
+      break;
+  }
+  // Strip markdown-style [label](url) — count only the visible label.
+  text = text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+  const words = text.trim().split(/\s+/).filter(Boolean).length;
+  // 1.5s image-register hold + ~2.8 wps reading pace
+  const READ_WPS = 2.8;
+  const HOLD_MS = 1500;
+  return Math.round(HOLD_MS + (words / READ_WPS) * 1000);
 }
 
 interface StageVisual {

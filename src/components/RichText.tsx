@@ -64,7 +64,10 @@ function renderInline(text: string, sources?: Source[]): ReactNode[] {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="underline decoration-ember/40 decoration-1 underline-offset-[3px] hover:decoration-ember hover:text-ember transition-colors"
+          // pointer-events-auto so links inside a pointer-events-none
+          // container (like the stage caption strip) remain clickable
+          // even when click zones below cover the page.
+          className="underline decoration-ember/40 decoration-1 underline-offset-[3px] hover:decoration-ember hover:text-ember transition-colors pointer-events-auto"
         >
           {label}
         </a>,
