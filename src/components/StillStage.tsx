@@ -45,10 +45,16 @@ export default function StillStage({
   onComplete,
 }: Props) {
   const [index, setIndex] = useState(0);
-  const [titleVisible, setTitleVisible] = useState(!!titleOverlay);
+  const [titleHidden, setTitleHidden] = useState(false);
   const prefersReducedMotion = useReducedMotion();
 
   const advance = useCallback(() => setIndex((i) => i + 1), []);
+
+  // Title overlay visibility is *derived* — true only when we're on
+  // scene 0 AND the auto-fade timer hasn't fired yet. This prevents
+  // the title from ghosting onto later scenes if the user clicks
+  // through scene 0 before the 5.2s timer completes.
+  const titleVisible = !!titleOverlay && index === 0 && !titleHidden;
 
   useEffect(() => {
     if (index >= scenes.length) {
@@ -59,13 +65,10 @@ export default function StillStage({
     return () => window.clearTimeout(id);
   }, [index, scenes, advance, onComplete]);
 
-  // Title overlay: starts visible (via initial useState), auto-fades
-  // after ~5s while we're on scene 0. The state initializer handles
-  // the "true on mount" case so we don't need a synchronous setState
-  // here, just the timer for the fade-out.
+  // Auto-fade the title overlay only while we're still on scene 0.
   useEffect(() => {
     if (!titleOverlay || index !== 0) return;
-    const t = window.setTimeout(() => setTitleVisible(false), 5200);
+    const t = window.setTimeout(() => setTitleHidden(true), 5200);
     return () => window.clearTimeout(t);
   }, [index, titleOverlay]);
 
@@ -109,11 +112,12 @@ export default function StillStage({
           className="absolute inset-0"
         >
           {isChapter ? (
-            <ChapterIntertitle text={narrative.text ?? ""} />
+            <ChapterIntertitle text={narrative.text ?? ""} sources={sources} />
           ) : isPullQuote ? (
             <PullQuote
               text={narrative.text ?? ""}
               attribution={narrative.attribution ?? ""}
+              sources={sources}
             />
           ) : visual.url ? (
             <motion.img
@@ -258,14 +262,22 @@ export default function StillStage({
   );
 }
 
-function ChapterIntertitle({ text }: { text: string }) {
+function ChapterIntertitle({
+  text,
+  sources,
+}: {
+  text: string;
+  sources?: Source[];
+}) {
   return (
     <div className="absolute inset-0 flex items-center justify-center px-8 md:px-16">
       <div className="text-center max-w-2xl">
         <div className="w-12 h-px bg-ember/60 mx-auto mb-6" />
-        <p className="font-display text-2xl md:text-3xl text-stone-100 leading-relaxed">
-          {text}
-        </p>
+        <RichText
+          text={text}
+          sources={sources}
+          className="font-display text-2xl md:text-3xl text-stone-100 leading-relaxed block"
+        />
         <div className="w-12 h-px bg-ember/60 mx-auto mt-6" />
       </div>
     </div>
@@ -275,18 +287,24 @@ function ChapterIntertitle({ text }: { text: string }) {
 function PullQuote({
   text,
   attribution,
+  sources,
 }: {
   text: string;
   attribution: string;
+  sources?: Source[];
 }) {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-16 text-center">
       <blockquote className="font-display italic text-xl md:text-3xl text-stone-50 leading-snug max-w-3xl">
-        &ldquo;{text}&rdquo;
+        &ldquo;
+        <RichText text={text} sources={sources} />
+        &rdquo;
       </blockquote>
-      <div className="mt-6 text-sm text-stone-400 max-w-md tracking-wide">
-        — {attribution}
-      </div>
+      <RichText
+        text={`— ${attribution}`}
+        sources={sources}
+        className="mt-6 text-sm text-stone-400 max-w-md tracking-wide block"
+      />
     </div>
   );
 }

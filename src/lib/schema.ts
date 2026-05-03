@@ -130,6 +130,13 @@ export const TimelineMomentSchema = z.object({
   imagePosition: z.string().optional(),
   sourceIds: z.array(SOURCE_ID).optional(),
   furtherReading: z.array(ReadingItemSchema).optional(),
+  /**
+   * Informational only. Describes what an AI-generated image for this
+   * moment should depict. Drop the prompt into ChatGPT/DALL-E /
+   * Midjourney / Adobe Firefly when you want a custom render, then
+   * replace `imageUrl` with the result.
+   */
+  aiPrompt: z.string().optional(),
 });
 
 /**
@@ -141,6 +148,26 @@ export const TimelineSchema = z.object({
   title: z.string().optional(),
   intro: z.string().optional(),
   moments: z.array(TimelineMomentSchema).min(1),
+});
+
+/**
+ * A "bridge card" rendered at the bottom of an incident page that
+ * points the reader to a related incident. Used to weave the
+ * directory into a connected narrative.
+ *
+ * `aiPrompt` is informational only — a description of what an
+ * AI-generated bridge image should look like, so the author can swap
+ * `imageUrl` for a custom render later without losing the brief.
+ */
+export const BridgeSchema = z.object({
+  incidentId: z.string().min(1),
+  headline: z.string().min(1),
+  subhead: z.string().optional(),
+  cta: z.string().optional(),
+  imageUrl: z.string().min(1),
+  imageAlt: z.string().min(1),
+  imagePosition: z.string().optional(),
+  aiPrompt: z.string().optional(),
 });
 
 export const IncidentSchema = z
@@ -170,6 +197,11 @@ export const IncidentSchema = z
      * moments the user can explore at their own pace.
      */
     timeline: TimelineSchema.optional(),
+    /**
+     * Optional bridge card pointing the reader to another incident
+     * after they finish this one. Renders at the bottom of the page.
+     */
+    bridgeTo: BridgeSchema.optional(),
   })
   .superRefine((incident, ctx) => {
     const sourceIds = new Set(incident.sources.map((s) => s.id));
@@ -210,4 +242,5 @@ export type Payoff = z.infer<typeof PayoffSchema>;
 export type ReadingItem = z.infer<typeof ReadingItemSchema>;
 export type TimelineMoment = z.infer<typeof TimelineMomentSchema>;
 export type Timeline = z.infer<typeof TimelineSchema>;
+export type Bridge = z.infer<typeof BridgeSchema>;
 export type Incident = z.infer<typeof IncidentSchema>;

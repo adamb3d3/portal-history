@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { getIncidentById } from "../lib/incidents";
 import StillStage from "../components/StillStage";
 import TimelineExplorer from "../components/TimelineExplorer";
+import BridgeCard from "../components/BridgeCard";
 
 // Globe + ScenePlayer pull in Mapbox GL JS (~1.5MB). Lazy-load them so
 // still-image-driven incidents never pay the cost.
@@ -17,24 +18,25 @@ export default function Incident() {
   const [flybyDone, setFlybyDone] = useState(false);
   const [scenesDone, setScenesDone] = useState(false);
   const [sourcesOpen, setSourcesOpen] = useState(false);
-  const timelineRef = useRef<HTMLDivElement | null>(null);
+  // Sentinel that points to the first post-stage section (timeline or
+  // bridge). The Continue cue scrolls to whichever exists.
+  const nextRef = useRef<HTMLDivElement | null>(null);
+  const hasNextSection = !!(incident?.timeline || incident?.bridgeTo);
 
-  // Auto-scroll cue: when the linear scenes complete, gently nudge the
-  // page to reveal the timeline section below. Only on the first
-  // completion, and never if the user has already scrolled.
   const autoScrolledRef = useRef(false);
   useEffect(() => {
     if (!scenesDone || autoScrolledRef.current) return;
+    if (!hasNextSection) return;
     if (window.scrollY > 80) return;
     autoScrolledRef.current = true;
     const t = window.setTimeout(() => {
-      timelineRef.current?.scrollIntoView({
+      nextRef.current?.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
     }, 1200);
     return () => window.clearTimeout(t);
-  }, [scenesDone]);
+  }, [scenesDone, hasNextSection]);
 
   if (!incident) {
     return (
@@ -57,8 +59,8 @@ export default function Incident() {
 
   const handleScenesComplete = () => setScenesDone(true);
 
-  const scrollToTimeline = () => {
-    timelineRef.current?.scrollIntoView({
+  const scrollToNext = () => {
+    nextRef.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
@@ -116,16 +118,16 @@ export default function Incident() {
 
         {/* "↓ Continue" affordance after the linear sequence completes */}
         <AnimatePresence>
-          {scenesDone && (
+          {scenesDone && hasNextSection && (
             <motion.button
               type="button"
-              onClick={scrollToTimeline}
+              onClick={scrollToNext}
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
               className="absolute bottom-7 left-1/2 -translate-x-1/2 z-40 inline-flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.4em] text-stone-200 hover:text-ember transition-colors group"
-              aria-label="Continue to the timeline"
+              aria-label="Continue"
             >
               <span>Continue</span>
               <motion.span
@@ -144,12 +146,12 @@ export default function Incident() {
         </AnimatePresence>
       </section>
 
+      {/* Sentinel: first post-stage section */}
+      <div ref={nextRef} />
+
       {/* Timeline section — full-bleed background, internal max-width */}
       {incident.timeline && (
-        <div
-          ref={timelineRef}
-          className="relative w-full px-6 py-24 md:py-32 border-t border-night-800"
-        >
+        <div className="relative w-full px-6 py-24 md:py-32 border-t border-night-800">
           <TimelineExplorer
             title={incident.timeline.title}
             intro={incident.timeline.intro}
@@ -158,6 +160,9 @@ export default function Incident() {
           />
         </div>
       )}
+
+      {/* Bridge to a related incident */}
+      {incident.bridgeTo && <BridgeCard bridge={incident.bridgeTo} />}
 
       {/* Footer: collapsible sources */}
       <footer className="border-t border-night-800">
